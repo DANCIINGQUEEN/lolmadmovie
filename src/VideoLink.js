@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
+import HorizonLine from "./HorizonLine";
 
 const A = styled.a`
 color: black;
@@ -156,11 +157,92 @@ function VideoLink() {
         L34:{
             title:"스웨인 궁존야로 이니시 막기",
             link:"https://www.youtube.com/watch?v=OQEzrVdDPfU"
+        },
+        L35:{
+            title:"아무무 원딜 녹이기",
+            link:"https://www.youtube.com/watch?v=ZYKNeT5ga5I"
+        },
+        L36:{
+            title:"아무무 4인궁 한타 빡캐리",
+            link:"https://www.youtube.com/watch?v=9CKfuFKVMbo"
+        },
+        L37:{
+            title:"아무무 4인궁 한타 빡캐리2",
+            link:"https://www.youtube.com/watch?v=IicrBSYTId8"
+        },
+        L38:{
+            title:"안죽는 워윅과 세나 쿼드라",
+            link:"https://www.youtube.com/watch?v=NKcLFbn_vZY"
+        },
+        L39:{
+            title:"마스터 상대로 승리",
+            link:"https://www.youtube.com/watch?v=Lk_Q2FPrYcA"
+        },
+        L40:{
+            title:"버섯 개판 5분전",
+            link:"https://www.youtube.com/watch?v=EgIJCvSgM88"
+        },
+        L41:{
+            title:"자크, 스웨인 좌우합작",
+            link:"https://www.youtube.com/watch?v=vOCyIammA2c"
+        },
+        L42:{
+            title:"다 잘한 한타2",
+            link:"https://www.youtube.com/watch?v=FJef-T4JjOI"
+        },
+        L43:{
+            title:"케이틀린 사거리싸움",
+            link:"https://www.youtube.com/watch?v=7PvC9F4QlDw"
+        },
+        L44:{
+            title:"미포 궁으로 3명 녹이기",
+            link:"https://www.youtube.com/watch?v=qu-25Dp11co"
+        },
+        L45:{
+            title:"게임을 끝내는 빅토르 앞점멸 이니시",
+            link:"https://www.youtube.com/watch?v=c_3in4FvFbc"
+        },
+        L46:{
+            title:"패드립먹는 리산드라",
+            link:"https://www.youtube.com/watch?v=ywbaTXruICE"
         }
 
     }
+    const HD={
+        L1:{
+            title:"못막는 사이온",
+            link:"https://www.youtube.com/watch?v=jBN-ALh2WMk"
+        },
+        L2:{
+            title:"야스오 비공식 쿼드라",
+            link:"https://www.youtube.com/watch?v=0hRJ3f0pkGA"
+        },
+        L3:{
+            title:"아칼리 쿼드라",
+            link:"https://www.youtube.com/watch?v=C6sij6sIUCY"
+        },
+        L4:{
+            title:"마오카이에게 타죽는 케인",
+            link:"https://www.youtube.com/watch?v=Iq3wCDosZkI"
+        },
+        L5:{
+            title:"그웬 쿼드라",
+            link:"https://www.youtube.com/watch?v=itMNtOPXCXU"
+        }
+    }
     return (
         <div>
+            <HorizonLine text={"1080p"}/>
+
+            {
+                Object.entries(HD).map((LL)=> (
+                    <Li id={LL[1].title}>
+                        <A href={LL[1].link}>{LL[1].title}</A>
+                    </Li>
+
+                ))
+            }
+            <HorizonLine text={"720p"}/>
             {
                 Object.entries(titleAndLink).map((LL)=> (
                     <Li id={LL[1].title}>

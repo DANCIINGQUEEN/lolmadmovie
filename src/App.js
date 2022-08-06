@@ -19,7 +19,7 @@ function App() {
 
         <div className="App">
             <h1>칼바람 하이라이트</h1>
-            <HorizonLine text={"칼바람팸과"}/>
+            {/*<HorizonLine text={"칼바람팸과"}/>*/}
             <VideoLink/>
         </div>
 
