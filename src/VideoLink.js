@@ -329,7 +329,7 @@ function VideoLink() {
             link: "https://www.youtube.com/watch?v=kCz89pzFtMo"
         },
         L74: {
-            title: "카이사 쿼드라2",
+            title: "카이사 4w 1q 쿼드라",
             link: "https://www.youtube.com/watch?v=_5KqTjpZvOc"
         },
         L75: {
