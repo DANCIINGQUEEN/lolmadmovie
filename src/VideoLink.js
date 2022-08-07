@@ -31,7 +31,7 @@ padding:0`
 
 function VideoLink() {
     //720p
-    const titleAndLink = {
+    const HD = {
         L1: {
             title: "펜타 뺏기는 카이사 쿼드라",
             link: "https://www.youtube.com/watch?v=H9opfu-wuiQ"
@@ -275,12 +275,72 @@ function VideoLink() {
         L60: {
             title: "시비르 프리딜",
             link: "https://www.youtube.com/watch?v=NJ6TgE4Ebok"
+        },
+        L61: {
+            title: "사미라 펜타킬",
+            link: "https://www.youtube.com/watch?v=2sDxB4rlm0M"
+        },
+        L62: {
+            title: "다리우스 쿼드라",
+            link: "https://www.youtube.com/watch?v=gBT50HrpPPs"
+        },
+        L63: {
+            title: "33분 게임 끝내기",
+            link: "https://www.youtube.com/watch?v=gkhDK8hj0ew"
+        },
+        L64: {
+            title: "노틸의 끝내기 그랩",
+            link: "https://www.youtube.com/watch?v=rnMGDekeKEc"
+        },
+        L65: {
+            title: "다리우스 쿼드라",
+            link: "https://www.youtube.com/watch?v=utlJuFL1n5o"
+        },
+        L66: {
+            title: "리신 또 쿼드라",
+            link: "https://www.youtube.com/watch?v=J3xW9Umny80"
+        },
+        L67: {
+            title: "리신 당구킥",
+            link: "https://www.youtube.com/watch?v=rYhCzRvUchk"
+        },
+        L68: {
+            title: "리신 쿼드라",
+            link: "https://www.youtube.com/watch?v=kGbhGwg8oL8"
+        },
+        L69: {
+            title: "탈리야 쿼드라",
+            link: "https://www.youtube.com/watch?v=y4XjmUWjNmI"
+        },
+        L70: {
+            title: "스웨인 이니시",
+            link: "https://www.youtube.com/watch?v=DVV24Pa7q3I"
+        },
+        L71: {
+            title: "자르반 이니시",
+            link: "https://www.youtube.com/watch?v=n5_ZQvhjUjE"
+        },
+        L72: {
+            title: "세트, 아칼리 합작",
+            link: "https://www.youtube.com/watch?v=By6rei7mod8"
+        },
+        L73: {
+            title: "다리우스 선봉대",
+            link: "https://www.youtube.com/watch?v=kCz89pzFtMo"
+        },
+        L74: {
+            title: "카이사 쿼드라2",
+            link: "https://www.youtube.com/watch?v=_5KqTjpZvOc"
+        },
+        L75: {
+            title: "사미라 펜타킬",
+            link: "https://www.youtube.com/watch?v=2sDxB4rlm0M"
         }
 
     }
 
     //1080p
-    const HD220806 = {
+    const FHD220806 = {
         L1: {
             title: "못막는 사이온",
             link: "https://www.youtube.com/watch?v=jBN-ALh2WMk"
@@ -303,7 +363,7 @@ function VideoLink() {
         }
     }
 
-    const HD220807 = {
+    const FHD220807 = {
         L1: {
             title: "카타리나 쿼드라",
             link: "https://www.youtube.com/watch?v=4VR1ufevLi8"
@@ -330,9 +390,9 @@ function VideoLink() {
             <Container>
                 <P>22-08-07</P>
                 {
-                    Object.entries(HD220807).map((LL) => (
-                        <Li id={LL[1].title}>
-                            <A href={LL[1].link}>{LL[1].title}</A>
+                    Object.entries(FHD220807).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
                     ))
@@ -343,9 +403,9 @@ function VideoLink() {
             <Container>
                 <P>22-08-06</P>
                 {
-                    Object.entries(HD220806).map((LL) => (
-                        <Li id={LL[1].title}>
-                            <A href={LL[1].link}>{LL[1].title}</A>
+                    Object.entries(FHD220806).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
                     ))
@@ -354,9 +414,9 @@ function VideoLink() {
 
             <HorizonLine text={"720p"}/>
             {
-                Object.entries(titleAndLink).map((LL) => (
-                    <Li id={LL[1].title}>
-                        <A href={LL[1].link}>{LL[1].title}</A>
+                Object.entries(HD).map((list) => (
+                    <Li id={list[1].title}>
+                        <A href={list[1].link}>{list[1].title}</A>
                     </Li>
                 ))
             }
