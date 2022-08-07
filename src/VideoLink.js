@@ -257,7 +257,7 @@ function VideoLink() {
             link: "https://www.youtube.com/watch?v=NDljFZOVimk"
         },
         L4: {
-            title: "카타리나 쿼드라3",
+            title: "카타리나 쿼드라2",
             link: "https://www.youtube.com/watch?v=z57XbQ340y0"
         }
     }
