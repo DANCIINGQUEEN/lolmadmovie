@@ -215,6 +215,66 @@ function VideoLink() {
         L46: {
             title: "패드립먹는 리산드라",
             link: "https://www.youtube.com/watch?v=ywbaTXruICE"
+        },
+        L46: {
+            title: "모데카이저 쿼드라",
+            link: "https://www.youtube.com/watch?v=9CJfW5UR10I"
+        },
+        L47: {
+            title: "6랩한타 5대0 올클리어",
+            link: "https://www.youtube.com/watch?v=37lhk6rfUig"
+        },
+        L48: {
+            title: "베인 프리딜",
+            link: "https://www.youtube.com/watch?v=IJlSNU_1cNE"
+        },
+        L49: {
+            title: "렐 스로잉",
+            link: "https://www.youtube.com/watch?v=NGWSxDIwLcg"
+        },
+        L50: {
+            title: "올클리어",
+            link: "https://www.youtube.com/watch?v=oPVanpA1qXw"
+        },
+        L51: {
+            title: "스웨인 아무무 합작",
+            link: "https://www.youtube.com/watch?v=f9Id3OOuNtQ"
+        },
+        L52: {
+            title: "스웨인 한타장악력",
+            link: "https://www.youtube.com/watch?v=dqgwULpNTyU"
+        },
+        L53: {
+            title: "게임을 끝내는 트리스타나의 앞점프",
+            link: "https://www.youtube.com/watch?v=GbqinLcSfPo"
+        },
+        L54: {
+            title: "리신 펜타킬",
+            link: "https://www.youtube.com/watch?v=aUajQYTAyqw"
+        },
+        L55: {
+            title: "게임을 끝내는 애쉬 궁",
+            link: "https://www.youtube.com/watch?v=UJdqP15oKzs"
+        },
+        L56: {
+            title: "다리우스 쿼드라",
+            link: "https://www.youtube.com/watch?v=mrlhUX4oNOI"
+        },
+        L57: {
+            title: "게임을 끝내는 세나의 카이팅",
+            link: "https://www.youtube.com/watch?v=WBd2PjnYhDU"
+        },
+        L58: {
+            title: "아트록스 쿼드라",
+            link: "https://www.youtube.com/watch?v=WDJeQV_wa40"
+        },
+        L59: {
+            title: "렉사이 쿼드라",
+            link: "https://www.youtube.com/watch?v=xRPOEztRto0"
+        },
+        L60: {
+            title: "시비르 프리딜",
+            link: "https://www.youtube.com/watch?v=NJ6TgE4Ebok"
         }
 
     }
