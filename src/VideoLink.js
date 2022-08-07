@@ -335,6 +335,66 @@ function VideoLink() {
         L75: {
             title: "사미라 펜타킬",
             link: "https://www.youtube.com/watch?v=2sDxB4rlm0M"
+        },
+        L76: {
+            title: "징크스 신난다",
+            link: "https://www.youtube.com/watch?v=1ck68mN8U58"
+        },
+        L77: {
+            title: "안죽는 이렐",
+            link: "https://www.youtube.com/watch?v=jLLfPbrKnCw"
+        },
+        L78: {
+            title: "아펠 억까2",
+            link: "https://www.youtube.com/watch?v=az_hPkUHbq0"
+        },
+        L79: {
+            title: "아펠 억까, 카밀 쿼드라",
+            link: "https://www.youtube.com/watch?v=EG-wJc9Dgl4"
+        },
+        L80: {
+            title: "아펠 억까3",
+            link: "https://www.youtube.com/watch?v=wxbW7uagMVw"
+        },
+        L81: {
+            title: "리산드라 하드스로잉",
+            link: "https://www.youtube.com/watch?v=SidvPn8CsNk"
+        },
+        L82: {
+            title: "케넨 한타 파괴와 아크샨 마무리",
+            link: "https://www.youtube.com/watch?v=8MxwSz7GpxE"
+        },
+        L83: {
+            title: "아크샨 카이팅",
+            link: "https://www.youtube.com/watch?v=D-raXf-gGZ0"
+        },
+        L84: {
+            title: "트위치 잡기",
+            link: "https://www.youtube.com/watch?v=YVikkZ18kJY"
+        },
+        L85: {
+            title: "트위치 잡고 겜 끝내기",
+            link: "https://www.youtube.com/watch?v=1jwvvw8Mls0"
+        },
+        L86: {
+            title: "cc연계",
+            link: "https://www.youtube.com/watch?v=-9_WaBU53dM"
+        },
+        L87: {
+            title: "cc연계2",
+            link: "https://www.youtube.com/watch?v=mNRypeh5PlM"
+        },
+        L88: {
+            title: "케이틀린 4평타 쿼드라",
+            link: "https://www.youtube.com/watch?v=uiismCTTopM"
+        },
+        L89: {
+            title: "애쉬 궁 노틸 그랩 호응",
+            link: "https://www.youtube.com/watch?v=ecm_VOE9HVU"
+        },
+        L90: {
+            title: "세트 한타 파괴",
+            link: "https://www.youtube.com/watch?v=gIKOfj4ekfs"
         }
 
     }
