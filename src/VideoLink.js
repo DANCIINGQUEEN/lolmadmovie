@@ -395,7 +395,168 @@ function VideoLink() {
         L90: {
             title: "세트 한타 파괴",
             link: "https://www.youtube.com/watch?v=gIKOfj4ekfs"
+        },
+        L91: {
+            title: "아지르 4대1 트리플킬",
+            link: "https://www.youtube.com/watch?v=51s6iJOW67Q"
+        },
+        L92: {
+            title: "모데카이저 끝내기 q점멸",
+            link: "https://www.youtube.com/watch?v=q_txQtvhsPE"
+        },
+        L93: {
+            title: "그브 시비르 폭딜",
+            link: "https://www.youtube.com/watch?v=233-cfi1dCI"
+        },
+        L94: {
+            title: "피즈 어그로빼기",
+            link: "https://www.youtube.com/watch?v=MJT2a8D39AQ"
+        },
+        L95: {
+            title: "베이가 쿼드라",
+            link: "https://www.youtube.com/watch?v=b-w68OrrAao"
+        },
+        L96: {
+            title: "벡스 쿼드라",
+            link: "https://www.youtube.com/watch?v=nIbkRrfvoWs"
+        },
+        L97: {
+            title: "마스터이 쿼드라",
+            link: "https://www.youtube.com/watch?v=IQ2FSvRSAYc"
+        },
+        L98: {
+            title: "트린다이머 쿼드라",
+            link: "https://www.youtube.com/watch?v=0jTsRdGe-hw"
+        },
+        L99: {
+            title: "조합차이",
+            link: "https://www.youtube.com/watch?v=lkGaAtdB6E0"
+        },
+        L100: {
+            title: "헤카림 이니시",
+            link: "https://www.youtube.com/watch?v=s2og64zmwto"
+        },
+        L101: {
+            title: "헤카림 이니시2",
+            link: "https://www.youtube.com/watch?v=SDngwTCnVKs"
+        },
+        L102: {
+            title: "비에고 갈아타기",
+            link: "https://www.youtube.com/watch?v=a3L0qfi3FQw"
+        },
+        L103: {
+            title: "비에고 갈아타기2",
+            link: "https://www.youtube.com/watch?v=1FhV_aHw4HQ"
+        },
+        L104: {
+            title: "4대5 한타 승리",
+            link: "https://www.youtube.com/watch?v=vNpSRHv_SY4"
+        },
+        L105: {
+            title: "아펠 쿼드라",
+            link: "https://www.youtube.com/watch?v=quAWcdbdKIE"
+        },
+        L106: {
+            title: "대역전극",
+            link: "https://www.youtube.com/watch?v=t52dpHu3K68"
+        },
+        L107: {
+            title: "세트의 미포 원콤",
+            link: "https://www.youtube.com/watch?v=UefqikR2M-A"
+        },
+        L108: {
+            title: "리븐 스로잉",
+            link: "https://www.youtube.com/watch?v=MW6MBHzchYQ"
+        },
+        L109: {
+            title: "안죽는 위윅",
+            link: "https://www.youtube.com/watch?v=eyJU6rqiIuM"
+        },
+        L110: {
+            title: "아무무 5인궁",
+            link: "https://www.youtube.com/watch?v=Q1gNvUkCsB4"
+        },
+        L111: {
+            title: "아무무 5인궁 2",
+            link: "https://www.youtube.com/watch?v=e1iyKp61sxQ"
+        },
+        L112: {
+            title: "워윅의 포탑다이브",
+            link: "https://www.youtube.com/watch?v=X8UAbarcC-w"
+        },
+        L112: {
+            title: "아무무 초가스 합작",
+            link: "https://www.youtube.com/watch?v=HteK8Sqscz0"
+        },
+        L113: {
+            title: "워윅의 트위치잡기",
+            link: "https://www.youtube.com/watch?v=AhlnKnppnAs"
+        },
+        L114: {
+            title: "오공 요네 오른",
+            link: "https://www.youtube.com/watch?v=_EojPCmUgaw"
+        },
+        L115: {
+            title: "신지드 넘기기",
+            link: "https://www.youtube.com/watch?v=GdXHALlCb6w"
+        },
+        L116: {
+            title: "파이크 펜타킬",
+            link: "https://www.youtube.com/watch?v=2WwSfpOjaBE"
+        },
+        L117: {
+            title: "사미라 쿼드라2",
+            link: "https://www.youtube.com/watch?v=m-IuOMXqSPY"
+        },
+        L118: {
+            title: "사미라 펜타킬2",
+            link: "https://www.youtube.com/watch?v=EJg9BizXwcc"
+        },
+        L119: {
+            title: "사미라 게임을 끝내는 펜타킬",
+            link: "https://www.youtube.com/watch?v=WJ0WMZ3_l-A"
+        },
+        L120: {
+            title: "피오라 몰래 라이즈 잡고 비공식 쿼드라",
+            link: "https://www.youtube.com/watch?v=xPUxMD7_H_A"
+        },
+        L121: {
+            title: "그라가스 배치기",
+            link: "https://www.youtube.com/watch?v=o7U2Tx-YmJE"
+        },
+        L122: {
+            title: "카타리나 쿼드라",
+            link: "https://www.youtube.com/watch?v=LTjh3QA-UGI"
+        },
+        L123: {
+            title: "카타리나 쿼드라2",
+            link: "https://www.youtube.com/watch?v=V4a0Al65ms0"
+        },
+        L124: {
+            title: "라이즈 쿼드라",
+            link: "https://www.youtube.com/watch?v=O2HUklo4MII"
+        },
+        L125: {
+            title: "라이즈 쿼드라2",
+            link: "https://www.youtube.com/watch?v=53ZWRhdgK4M"
+        },
+        L126: {
+            title: "게임을 끝내는 라이즈궁",
+            link: "https://www.youtube.com/watch?v=cr3I5qi35fI"
+        },
+        L127: {
+            title: "야이애나",
+            link: "https://www.youtube.com/watch?v=Er_YRNlkfo4"
+        },
+        L128: {
+            title: "이렐 혼자 펜타킬 후 겜 끝내기",
+            link: "https://www.youtube.com/watch?v=dTtA32BXDgA"
+        },
+        L129: {
+            title: "르블랑 펜타킬",
+            link: "https://www.youtube.com/watch?v=D74Kmo1B1Ko"
         }
+
 
     }
 
@@ -442,10 +603,34 @@ function VideoLink() {
         }
     }
 
+    const FHD220808={
+        L1: {
+            title: "피오라 쿼드라",
+            link: "https://www.youtube.com/watch?v=FatxHmo8c4w"
+        },
+        L2: {
+            title: "한타 이기고 게임 못끝냄",
+            link: "https://www.youtube.com/watch?v=beVo0Zy5Nx0"
+        }
+    }
+
+
 
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <Container>
+                <P>22-08-08</P>
+                {
+                    Object.entries(FHD220808).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
             <Container>
                 <P>22-08-07</P>
