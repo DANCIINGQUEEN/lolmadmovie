@@ -614,11 +614,54 @@ function VideoLink() {
         }
     }
 
+    const FHD220809={
+        L1: {
+            title: "조합차이",
+            link: "https://www.youtube.com/watch?v=hsJd6_D5GUA"
+        },
+        L2: {
+            title: "안죽는 신짜오",
+            link: "https://www.youtube.com/watch?v=1znHBfCxfOk"
+        },
+        L3: {
+            title: "안죽는 람머스",
+            link: "https://www.youtube.com/watch?v=ujtsnbMt1O0"
+        },
+        L4: {
+            title: "게임을 끝내러 가는 람머스",
+            link: "https://www.youtube.com/watch?v=9GYKkxCDCA4"
+        },
+        L5: {
+            title: "자르반 어그로",
+            link: "https://www.youtube.com/watch?v=mlzeDr8Rkpc"
+        },
+        L6: {
+            title: "미포 자르반 연계",
+            link: "https://www.youtube.com/watch?v=rTV-kdEMEhY"
+        },
+        L7: {
+            title: "마지막 만담",
+            link: "https://www.youtube.com/watch?v=2M4iGaQwzyQ"
+        }
+    }
+
 
 
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <Container>
+                <P>22-08-09</P>
+                {
+                    Object.entries(FHD220809).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
             <Container>
                 <P>22-08-08</P>
