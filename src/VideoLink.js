@@ -892,35 +892,35 @@ function VideoLink() {
             title: "아지르 또퍼토스",
             link: "https://www.youtube.com/watch?v=cdS228p4Q9k"
         },
-        L1: {
+        L2: {
             title: "아지르 또퍼토스와 진 쿼드라",
             link: "https://www.youtube.com/watch?v=TRDHCr2oA0A"
         },
-        L1: {
+        L3: {
             title: "이판 유일한 한타승리",
             link: "https://www.youtube.com/watch?v=lU3pJGCPxd4"
         },
-        L1: {
+        L4: {
             title: "오리아나 꼬리 살랑살랑",
             link: "https://www.youtube.com/watch?v=apHIx7x7Jl0"
         },
-        L1: {
+        L5: {
             title: "바드에게 패드립 먹는 애쉬",
             link: "https://www.youtube.com/watch?v=89I4afSrAXM"
         },
-        L1: {
+        L6: {
             title: "오리아나 한타파괴",
             link: "https://www.youtube.com/watch?v=gEwCVFWi4SI"
         },
-        L1: {
+        L7: {
             title: "딜러 포커싱",
             link: "https://www.youtube.com/watch?v=vxBgdWyRLqk"
         },
-        L1: {
+        L8: {
             title: "카타리나 쿼드라",
             link: "https://www.youtube.com/watch?v=qWR58Y3IhfI"
         },
-        L1: {
+        L9: {
             title: "아지르 슈퍼토스",
             link: "https://www.youtube.com/watch?v=wy6hy6ZeqJs"
         },
