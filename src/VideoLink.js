@@ -859,11 +859,51 @@ function VideoLink() {
         }
     }
 
+    const FHD220810= {
+        L1: {
+            title: "징크스 쿼드라",
+            link: "https://www.youtube.com/watch?v=Q6JqfPHye3k"
+        },
+        L2: {
+            title: "신지드 독",
+            link: "https://www.youtube.com/watch?v=AsjmtHLU3Io"
+        },
+        L3: {
+            title: "그웬 폭딜",
+            link: "https://www.youtube.com/watch?v=CXeAEp7QieM"
+        },
+        L4: {
+            title: "카서스 묫자리",
+            link: "https://www.youtube.com/watch?v=7dIHaFerqvY"
+        },
+        L5: {
+            title: "그저 아트록스",
+            link: "https://www.youtube.com/watch?v=eC1qv96uhNc"
+        },
+        L6: {
+            title: "갈리오차이",
+            link: "https://www.youtube.com/watch?v=IK_Zn3kLdBM"
+        }
+    }
+
 
 
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            {/*22-08-10*/}
+            <Container>
+                <P>22-08-09</P>
+                {
+                    Object.entries(FHD220810).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
             {/*22-08-09*/}
             <Container>
