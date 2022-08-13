@@ -927,10 +927,59 @@ function VideoLink() {
 
     }
 
+    const FHD220813= {
+        L1: {
+            title: "겨우 이김",
+            link: "https://www.youtube.com/watch?v=ppCcAXOrZuA"
+        },
+        L2: {
+            title: "릴리아 스트라이크",
+            link: "https://www.youtube.com/watch?v=Xm9cXnulFRw"
+        },
+        L3: {
+            title: "신짜오 치타배달",
+            link: "https://www.youtube.com/watch?v=2qc2fs8UHq4"
+        },
+        L4: {
+            title: "바이 이니시",
+            link: "https://www.youtube.com/watch?v=LBkZQKRzFAw"
+        },
+        L5: {
+            title: "피들스틱 이니시",
+            link: "https://www.youtube.com/watch?v=dZbWOgUmBhU"
+        },
+        L6: {
+            title: "바이 쿼드라",
+            link: "https://www.youtube.com/watch?v=8Zxymg10L6M"
+        },
+        L7: {
+            title: "세주아니 이니시",
+            link: "https://www.youtube.com/watch?v=XUP7kRQlhDQ"
+        },
+        L8: {
+            title: "시원한 한타",
+            link: "https://www.youtube.com/watch?v=A3Fm9yOJ7Ng"
+        }
+    }
+
+
 
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            {/*22-08-13*/}
+            <Container>
+                <P>22-08-13</P>
+                {
+                    Object.entries(FHD220813).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
             {/*22-08-11*/}
             <Container>
