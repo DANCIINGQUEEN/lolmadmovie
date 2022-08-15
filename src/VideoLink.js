@@ -1019,9 +1019,34 @@ function VideoLink() {
 
 
 
-    return (
+    const FHD220816= {
+        L1: {
+            title: "샤코 릭트쇼",
+            link: "https://www.youtube.com/watch?v=As4ey7IQ9ug"
+        },
+        L2: {
+            title: "쉔 도발",
+            link: "https://www.youtube.com/watch?v=gtjU_AKayBg"
+        },
+    }
+
+
+        return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            {/*22-08-16*/}
+            <Container>
+                <P>22-08-16</P>
+                {
+                    Object.entries(FHD220816).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
             {/*22-08-15*/}
             <Container>
