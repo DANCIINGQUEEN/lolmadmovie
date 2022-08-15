@@ -1004,7 +1004,7 @@ function VideoLink() {
             link: "https://www.youtube.com/watch?v=y0WH81ddhRQ"
         },
         L7: {
-            title: "스웨인 혼자 한타",
+            title: "스웨인 쉬바나 2대5",
             link: "https://www.youtube.com/watch?v=A-6E_iK79vk"
         },
         L8: {
