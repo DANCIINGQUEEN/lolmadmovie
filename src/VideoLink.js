@@ -963,10 +963,91 @@ function VideoLink() {
     }
 
 
+    const FHD220814= {
+        L1: {
+            title: "조합차이",
+            link: "https://www.youtube.com/watch?v=pquKhn3nSbY"
+        },
+        L2: {
+            title: "야소 쿼드라",
+            link: "https://www.youtube.com/watch?v=BVoSJDuOIFE"
+        },
+        L3: {
+            title: "마오카이 q 야스오 궁",
+            link: "https://www.youtube.com/watch?v=MqbP8BVIioI"
+        },
+    }
+
+    const FHD220815= {
+        L1: {
+            title: "아지르 토스",
+            link: "https://www.youtube.com/watch?v=hU5UAYZLfb0"
+        },
+        L2: {
+            title: "4대5한타 승리",
+            link: "https://www.youtube.com/watch?v=pzxPONshDwk"
+        },
+        L3: {
+            title: "후반 아지르 딜",
+            link: "https://www.youtube.com/watch?v=patjij2wRdQ"
+        },
+        L4: {
+            title: "40분 게임 승리",
+            link: "https://www.youtube.com/watch?v=x0dscLSJWn0"
+        },
+        L5: {
+            title: "아지르 드리프트",
+            link: "https://www.youtube.com/watch?v=TZlYtFX6LPc"
+        },
+        L6: {
+            title: "쉬바나 스웨인 나르",
+            link: "https://www.youtube.com/watch?v=y0WH81ddhRQ"
+        },
+        L7: {
+            title: "스웨인 혼자 한타",
+            link: "https://www.youtube.com/watch?v=A-6E_iK79vk"
+        },
+        L8: {
+            title: "카이사 쿼드라",
+            link: "https://www.youtube.com/watch?v=ffBIswCmcdU"
+        },
+        L9: {
+            title: "스웨인 스웨인",
+            link: "https://www.youtube.com/watch?v=ISnpEmbenfI"
+        },
+    }
+
+
 
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            {/*22-08-15*/}
+            <Container>
+                <P>22-08-15</P>
+                {
+                    Object.entries(FHD220815).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
+
+            {/*22-08-14*/}
+            <Container>
+                <P>22-08-14</P>
+                {
+                    Object.entries(FHD220814).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
             {/*22-08-13*/}
             <Container>
