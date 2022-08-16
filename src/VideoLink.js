@@ -1030,10 +1030,52 @@ function VideoLink() {
         },
     }
 
+    const FHD220817= {
+        L1: {
+            title: "다이애나 이니시",
+            link: "https://www.youtube.com/watch?v=Zaz5yEX0LZ4"
+        },
+        L2: {
+            title: "질뻔한 판",
+            link: "https://www.youtube.com/watch?v=kKQGvTT5pXo"
+        },
+        L3: {
+            title: "키아나 쿼드라",
+            link: "https://www.youtube.com/watch?v=VaLqxFSMcqg"
+        },
+        L4: {
+            title: "요네 쿼드라",
+            link: "https://www.youtube.com/watch?v=foAT5rzSTkI"
+        },
+        L5: {
+            title: "아이번 세나 사랑싸움",
+            link: "https://www.youtube.com/watch?v=GZbp8hEQFd4"
+        },
+        L6: {
+            title: "렐 레넥톤",
+            link: "https://www.youtube.com/watch?v=iWuG0R0-yIo"
+        },
+
+    }
+
 
         return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+
+            {/*22-08-17*/}
+            <Container>
+                <P>22-08-17</P>
+                {
+                    Object.entries(FHD220817).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
             {/*22-08-16*/}
             <Container>
