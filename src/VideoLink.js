@@ -1058,10 +1058,80 @@ function VideoLink() {
 
     }
 
+    const FHD220820= {
+        L1: {
+            title: "다이애나 이니시",
+            link: "https://www.youtube.com/watch?v=CzT54PjPp0M"
+        },
+        L2: {
+            title: "사일러스 받아치기",
+            link: "https://www.youtube.com/watch?v=treLgWDFob4"
+        },
+        L3: {
+            title: "한타 역전",
+            link: "https://www.youtube.com/watch?v=ZqG2OE_ImcI"
+        },
+        L4: {
+            title: "자크 이니시, 아크샨 돌진",
+            link: "https://www.youtube.com/watch?v=4YHNY8X__D4"
+        },
+        L5: {
+            title: "리신 쿼드라",
+            link: "https://www.youtube.com/watch?v=RRn4XhLgviw"
+        },
+        L6: {
+            title: "리신 3인분",
+            link: "https://www.youtube.com/watch?v=Yf8isElnFto"
+        },
+        L7: {
+            title: "안죽는 아트록스",
+            link: "https://www.youtube.com/watch?v=uB_socdwTsA"
+        },
+        L8: {
+            title: "받아치기",
+            link: "https://www.youtube.com/watch?v=x2Mon-XJSa0"
+        },
+        L9: {
+            title: "올 킬",
+            link: "https://www.youtube.com/watch?v=NNEAqP32CRk"
+        },
+        L10: {
+            title: "리산드라",
+            link: "https://www.youtube.com/watch?v=GgTpSA2LIOc"
+        },
+        L11: {
+            title: "자크 노어시",
+            link: "https://www.youtube.com/watch?v=3po1jUpvslc"
+        },
+
+    }
+
+
+
+    // const FHD220817= {
+    //     L1: {
+    //         title: "다이애나 이니시",
+    //         link: "https://www.youtube.com/watch?v=Zaz5yEX0LZ4"
+    //     },
+    // }
 
         return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+
+            {/*22-08-20*/}
+            <Container>
+                <P>22-08-20</P>
+                {
+                    Object.entries(FHD220820).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
 
             {/*22-08-17*/}
