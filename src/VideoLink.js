@@ -1106,18 +1106,60 @@ function VideoLink() {
 
     }
 
+    const FHD220821= {
+        L1: {
+            title: "한타 승리",
+            link: "https://www.youtube.com/watch?v=ee_18DoOtQE"
+        },
+        L2: {
+            title: "말파 3인궁",
+            link: "https://www.youtube.com/watch?v=MglWw4uPooc"
+        },
+        L3: {
+            title: "처음 슈렐 사용",
+            link: "https://www.youtube.com/watch?v=5vPqOXraxdM"
+        },
+        L4: {
+            title: "두번째 슈렐 사용",
+            link: "https://www.youtube.com/watch?v=VMz2outFjFs"
+        },
+        L5: {
+            title: "슈렐 3번째 사용 억제기 to 억제기",
+            link: "https://www.youtube.com/watch?v=ko0TUNb9PPM"
+        },
+        L6: {
+            title: "마지막 슈렐 사용, 카타 쿼드라",
+            link: "https://www.youtube.com/watch?v=oBDq5GxN76M"
+        },
+
+    }
+
 
 
     // const FHD220817= {
     //     L1: {
-    //         title: "다이애나 이니시",
-    //         link: "https://www.youtube.com/watch?v=Zaz5yEX0LZ4"
+    //         title: "",
+    //         link: ""
     //     },
     // }
 
         return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+
+            {/*22-08-21*/}
+            <Container>
+                <P>22-08-21</P>
+                {
+                    Object.entries(FHD220821).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
 
             {/*22-08-20*/}
