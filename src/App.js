@@ -2,6 +2,7 @@ import './App.css';
 
 import HorizonLine from "./HorizonLine";
 import VideoLink from "./VideoLink";
+import NewLink from "./NewLink";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     return (
 
         <div className="App">
+            {/*<NewLink/>*/}
             <h1>칼바람 하이라이트</h1>
             <VideoLink/>
         </div>

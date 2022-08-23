@@ -817,7 +817,7 @@ function VideoLink() {
         }
     }
 
-    const FHD220808={
+    const FHD220808 = {
         L1: {
             title: "피오라 쿼드라",
             link: "https://www.youtube.com/watch?v=FatxHmo8c4w"
@@ -828,7 +828,7 @@ function VideoLink() {
         }
     }
 
-    const FHD220809={
+    const FHD220809 = {
         L1: {
             title: "조합차이",
             link: "https://www.youtube.com/watch?v=hsJd6_D5GUA"
@@ -859,7 +859,7 @@ function VideoLink() {
         }
     }
 
-    const FHD220810= {
+    const FHD220810 = {
         L1: {
             title: "징크스 쿼드라",
             link: "https://www.youtube.com/watch?v=Q6JqfPHye3k"
@@ -886,8 +886,7 @@ function VideoLink() {
         }
     }
 
-
-    const FHD220811= {
+    const FHD220811 = {
         L1: {
             title: "아지르 또퍼토스",
             link: "https://www.youtube.com/watch?v=cdS228p4Q9k"
@@ -927,7 +926,7 @@ function VideoLink() {
 
     }
 
-    const FHD220813= {
+    const FHD220813 = {
         L1: {
             title: "겨우 이김",
             link: "https://www.youtube.com/watch?v=ppCcAXOrZuA"
@@ -962,8 +961,7 @@ function VideoLink() {
         }
     }
 
-
-    const FHD220814= {
+    const FHD220814 = {
         L1: {
             title: "조합차이",
             link: "https://www.youtube.com/watch?v=pquKhn3nSbY"
@@ -978,7 +976,7 @@ function VideoLink() {
         },
     }
 
-    const FHD220815= {
+    const FHD220815 = {
         L1: {
             title: "아지르 토스",
             link: "https://www.youtube.com/watch?v=hU5UAYZLfb0"
@@ -1017,9 +1015,7 @@ function VideoLink() {
         },
     }
 
-
-
-    const FHD220816= {
+    const FHD220816 = {
         L1: {
             title: "샤코 릭트쇼",
             link: "https://www.youtube.com/watch?v=As4ey7IQ9ug"
@@ -1030,7 +1026,7 @@ function VideoLink() {
         },
     }
 
-    const FHD220817= {
+    const FHD220817 = {
         L1: {
             title: "다이애나 이니시",
             link: "https://www.youtube.com/watch?v=Zaz5yEX0LZ4"
@@ -1058,7 +1054,7 @@ function VideoLink() {
 
     }
 
-    const FHD220820= {
+    const FHD220820 = {
         L1: {
             title: "다이애나 이니시",
             link: "https://www.youtube.com/watch?v=CzT54PjPp0M"
@@ -1106,7 +1102,7 @@ function VideoLink() {
 
     }
 
-    const FHD220821= {
+    const FHD220821 = {
         L1: {
             title: "한타 승리",
             link: "https://www.youtube.com/watch?v=ee_18DoOtQE"
@@ -1134,7 +1130,85 @@ function VideoLink() {
 
     }
 
+    const FHD220822 = {
+        L1: {
+            title: "아트록스 레오나",
+            link: "https://www.youtube.com/watch?v=nJLwZ_wijlY"
+        },
+        L2: {
+            title: "녹턴 쿼드라",
+            link: "https://www.youtube.com/watch?v=3CPUeqZqWu8"
+        },
+        L3: {
+            title: "슈퍼발키리",
+            link: "https://www.youtube.com/watch?v=g3-TuiD2VCU"
+        },
+        L4: {
+            title: "넥서스 공략",
+            link: "https://www.youtube.com/watch?v=BgmTuFRX0pI"
+        },
+        L5: {
+            title: "요네 스로잉",
+            link: "https://www.youtube.com/watch?v=6XOoHpEAaiY"
+        },
 
+    }
+
+    const FHD220823= {
+        L1: {
+            title: "뽀삐",
+            link: "https://www.youtube.com/watch?v=e_Sbw98nfLs"
+        },
+        L2: {
+            title: "뽀삐2",
+            link: "https://www.youtube.com/watch?v=XYJSFCTaw9c"
+        },
+        L3: {
+            title: "게임 끝",
+            link: "https://www.youtube.com/watch?v=-OP0bOIHkk8"
+        },
+        L4: {
+            title: "무지성 다이브 성공",
+            link: "https://www.youtube.com/watch?v=VCjOZvm1xkU"
+        },
+        L5: {
+            title: "노틸 케넨 합작",
+            link: "https://www.youtube.com/watch?v=KCAs5A_hjSk"
+        },
+        L6: {
+            title: "노틸 케넨 2",
+            link: "https://www.youtube.com/watch?v=q8gEREmxIpc"
+        },
+        L7: {
+            title: "노틸, 케넨 이니시와 람머스 꼬라박기",
+            link: "https://www.youtube.com/watch?v=mD6LAV2RNa8"
+        },
+        L8: {
+            title: "안죽는 람머스",
+            link: "https://www.youtube.com/watch?v=sOXLLF7kq8A"
+        },
+        L9: {
+            title: "람머스 자야 감아차기",
+            link: "https://www.youtube.com/watch?v=jAQfzroz6Pk"
+        },
+        L10: {
+            title: "트페 앞궁",
+            link: "https://www.youtube.com/watch?v=_ZbO7z3q4w8"
+        },
+        L11: {
+            title: "이즈 피오라 교차검증",
+            link: "https://www.youtube.com/watch?v=H61c92KXrVE"
+        },
+        L12: {
+            title: "레오나 이니시 피오라 가렌 앞잡이",
+            link: "https://www.youtube.com/watch?v=z2ypZvqD9Us"
+        },
+        L13: {
+            title: "피들 궁 차징 잔나가 막기",
+            link: "https://www.youtube.com/watch?v=peqWfoKGKDQ"
+        },
+
+    }
 
     // const FHD220817= {
     //     L1: {
@@ -1143,9 +1217,37 @@ function VideoLink() {
     //     },
     // }
 
-        return (
+    return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+
+            {/*22-08-23*/}
+            <Container>
+                <P>22-08-23</P>
+                {
+                    Object.entries(FHD220823).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
+
+
+            {/*22-08-22*/}
+            <Container>
+                <P>22-08-22</P>
+                {
+                    Object.entries(FHD220822).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
 
 
             {/*22-08-21*/}
