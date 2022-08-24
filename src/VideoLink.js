@@ -1238,16 +1238,63 @@ function VideoLink() {
 
     }
 
+    const FHD220825= {
+        L1: {
+            title: "진 비공식 쿼드라",
+            link: "https://www.youtube.com/watch?v=_XsFer5e1hk"
+        },
+        L2: {
+            title: "레나타 컷",
+            link: "https://www.youtube.com/watch?v=e78rjJkojak"
+        },
+        L3: {
+            title: "레나타 컷2",
+            link: "https://www.youtube.com/watch?v=LfV88KPg8Rc"
+        },
+        L4: {
+            title: "세트 어그로",
+            link: "https://www.youtube.com/watch?v=RV8PymjIIlA"
+        },
+        L5: {
+            title: "놀다가 게임 끝내기",
+            link: "https://www.youtube.com/watch?v=XuhCOoX4Mo4"
+        },
+        L6: {
+            title: "드레이븐 잡기",
+            link: "https://www.youtube.com/watch?v=rIggwmK1lSQ"
+        },
+        L7: {
+            title: "드레이븐 잡기2",
+            link: "https://www.youtube.com/watch?v=8BxsTHd698M"
+        },
+
+    }
+
     // const FHD220817= {
     //     L1: {
     //         title: "",
     //         link: ""
     //     },
+    //
     // }
 
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            {/*22-08-25*/}
+            <Container>
+                <P>22-08-25</P>
+                {
+                    Object.entries(FHD220825).map((list) => (
+                        <Li id={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
+                        </Li>
+
+                    ))
+                }
+            </Container>
+
 
             {/*22-08-24*/}
             <Container>
@@ -1325,7 +1372,7 @@ function VideoLink() {
                 {
                     Object.entries(FHD220817).map((list) => (
                         <Li id={list[1].title}>
-                            <A href={list[1].link}>{list[1].title}</A>
+                            <A href                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ={list[1].link}>{list[1].title}</A>
                         </Li>
 
                     ))
