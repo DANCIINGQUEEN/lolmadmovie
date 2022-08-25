@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import HorizonLine from "./HorizonLine";
+import DatePerLink from "./DatePerLink";
 
 const A = styled.a`
 color: black;
@@ -1270,6 +1271,62 @@ function VideoLink() {
 
     }
 
+    const FHD220826= {
+        L1: {
+            title: "무무 4인궁",
+            link: "https://www.youtube.com/watch?v=yi6eOWJ4wEE"
+        },
+        L2: {
+            title: "에코 어그로",
+            link: "https://www.youtube.com/watch?v=ve9Bmy-IyzY"
+        },
+        L3: {
+            title: "자르반 녹이고 시작한 한타 승리",
+            link: "https://www.youtube.com/watch?v=pM5wWleKqn8"
+        },
+        L4: {
+            title: "자르반 딜러 묶기",
+            link: "https://www.youtube.com/watch?v=FE_9PEQEl1Y"
+        },
+        L5: {
+            title: "카이사 추노",
+            link: "https://www.youtube.com/watch?v=iY9zMweqQbg"
+        },
+        L6: {
+            title: "그웬 모니터 이슈, 샤코 분신 폭딜, 카이사 생존",
+            link: "https://www.youtube.com/watch?v=CLl6hPLJ4HU"
+        },
+        L7: {
+            title: "샤코 하드쓰로잉",
+            link: "https://www.youtube.com/watch?v=SetsqyB9BhY"
+        },
+        L8: {
+            title: "그웬 카타 프리딜, 카이사 생존",
+            link: "https://www.youtube.com/watch?v=9yBwCcPf9X4"
+        },
+        L9: {
+            title: "결국 승리",
+            link: "https://www.youtube.com/watch?v=077ZImdlHmE"
+        },
+        L10: {
+            title: "요네 3인궁 닐라 4인궁",
+            link: "https://www.youtube.com/watch?v=jaMdS7v9JlA"
+        },
+        L11: {
+            title: "닐라 또 4인궁",
+            link: "https://www.youtube.com/watch?v=0TrUmft2plA"
+        },
+        L12: {
+            title: "대가리 박고 돌진",
+            link: "https://www.youtube.com/watch?v=9PRLBn2JUNk"
+        },
+        L13: {
+            title: "레넥 작사 탐켄치 작곡",
+            link: "https://www.youtube.com/watch?v=qmb_ASHOpts"
+        },
+
+    }
+
     // const FHD220817= {
     //     L1: {
     //         title: "",
@@ -1277,10 +1334,15 @@ function VideoLink() {
     //     },
     //
     // }
+    // console.log(FHD220826)
 
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+
+            <DatePerLink data={FHD220826} date={"220806"}/>
+
 
             {/*22-08-25*/}
             <Container>
