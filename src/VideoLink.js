@@ -1327,6 +1327,48 @@ function VideoLink() {
 
     }
 
+
+
+    const FHD220827= {
+        L1: {
+            title: "오리, 닐라, 야스오",
+            link: "https://www.youtube.com/watch?v=hdwSTs01VhU"
+        },
+        L2: {
+            title: "오리, 야스오 그리고 닐라",
+            link: "https://www.youtube.com/watch?v=PyRG4mGKpXY"
+        },
+        L3: {
+            title: "닐라 야스오",
+            link: "https://www.youtube.com/watch?v=72PO7rXuFWI"
+        },
+        L4: {
+            title: "오리아나 닐라와 함께 만들어낸 야스오 펜타킬",
+            link: "https://www.youtube.com/watch?v=_RsZCz14fXw"
+        },
+        L5: {
+            title: "닐라 야스오2 게임 끝내기",
+            link: "https://www.youtube.com/watch?v=qs7966tobJA"
+        },
+        L6: {
+            title: "오리아나 닐라와 함께 만들어낸 야스오 펜타킬 느린버전",
+            link: "https://www.youtube.com/watch?v=m_zciYhLYgo"
+        },
+        L7: {
+            title: "워윅 카타 타고 텔포",
+            link: "https://www.youtube.com/watch?v=fdKJM4d-Fbo"
+        },
+        L8: {
+            title: "람머스 궁딜",
+            link: "https://www.youtube.com/watch?v=hNp0rT1BiWU"
+        },
+        L9: {
+            title: "람머스 드리블",
+            link: "https://www.youtube.com/watch?v=XpUcZoiNcZs"
+        },
+
+    }
+
     // const FHD220817= {
     //     L1: {
     //         title: "",
@@ -1334,11 +1376,13 @@ function VideoLink() {
     //     },
     //
     // }
-    // console.log(FHD220826)
 
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <DatePerLink data={FHD220827} date={"220807"}/>
+
 
 
             <DatePerLink data={FHD220826} date={"220806"}/>
