@@ -1369,6 +1369,47 @@ function VideoLink() {
 
     }
 
+
+    const FHD220831= {
+        L1: {
+            title: "아칼리 비공식 쿼드라",
+            link: "https://www.youtube.com/watch?v=0OgSfV3tWAE"
+        },
+        L2: {
+            title: "니달리 콤보",
+            link: "https://www.youtube.com/watch?v=-65PZN-NqAk"
+        },
+        L3: {
+            title: "아칼리 케틀 니달리",
+            link: "https://www.youtube.com/watch?v=sxoD-laaNAs"
+        },
+        L4: {
+            title: "렝가 딜",
+            link: "https://www.youtube.com/watch?v=lnuSDX1bMf4"
+        },
+        L5: {
+            title: "티모 엔딩",
+            link: "https://www.youtube.com/watch?v=j3bKaYICFyM"
+        },
+        L6: {
+            title: "5원딜 참교육",
+            link: "https://www.youtube.com/watch?v=hdnv3Jz4sRU"
+        },
+        L7: {
+            title: "요네 럼블 카시",
+            link: "https://www.youtube.com/watch?v=3MgiKHZdfAU"
+        },
+        L8: {
+            title: "징크스 소라카한테 따잇",
+            link: "https://www.youtube.com/watch?v=8I6764B0nDs"
+        },
+        L9: {
+            title: "이게 쵸비식 요네야",
+            link: "https://www.youtube.com/watch?v=NgIPa1HiKgI"
+        },
+
+    }
+
     // const FHD220817= {
     //     L1: {
     //         title: "",
@@ -1380,6 +1421,9 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <DatePerLink data={FHD220831} date={"220831"}/>
+
 
             <DatePerLink data={FHD220827} date={"220807"}/>
 
