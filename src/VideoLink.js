@@ -1372,7 +1372,7 @@ function VideoLink() {
 
     const FHD220831= {
         L1: {
-            title: "아칼리 비공식 쿼드라",
+            title: "아칼리 비공식 펜타",
             link: "https://www.youtube.com/watch?v=0OgSfV3tWAE"
         },
         L2: {
