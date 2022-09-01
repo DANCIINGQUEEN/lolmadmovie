@@ -1410,6 +1410,31 @@ function VideoLink() {
 
     }
 
+    const FHD220901= {
+        L1: {
+            title: "킹 쵸 비 간결한 대답",
+            link: "https://www.youtube.com/watch?v=RbNZ4NbqT38"
+        },
+        L2: {
+            title: "모데 쵸비 솔킬",
+            link: "https://www.youtube.com/watch?v=JMifg8ScBjU"
+        },
+        L3: {
+            title: "챌린저 제드 펜타",
+            link: "https://www.youtube.com/watch?v=8Pn4YfXpL0M"
+        },
+        L4: {
+            title: "대 황 쵸비 펜타",
+            link: "https://www.youtube.com/watch?v=DyHwZHXrWkw"
+        },
+        L5: {
+            title: "킹 오브 킹 쵸비 쿼드라",
+            link: "https://www.youtube.com/watch?v=0jbH9A_Wkac"
+        },
+
+
+    }
+
     // const FHD220817= {
     //     L1: {
     //         title: "",
@@ -1421,6 +1446,9 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <DatePerLink data={FHD220901} date={"220901"}/>
+
 
             <DatePerLink data={FHD220831} date={"220831"}/>
 
