@@ -1461,7 +1461,7 @@ function VideoLink() {
         ["아칼리 쿼드라",
             "https://www.youtube.com/watch?v=mnx8sQDwNUo"],
         ["자발 나르 콤보",
-            "https://www.youtube.com/watch?v=mnx8sQDwNUo"],
+            "https://www.youtube.com/watch?v=Kaz1524MZqw"],
         ["결국 역전승",
             "https://www.youtube.com/watch?v=scUvtaeLMdA"],
 
