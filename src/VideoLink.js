@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import HorizonLine from "./HorizonLine";
 import DatePerLink from "./DatePerLink";
+import ArrayLink from "./ArrayLink";
 
 const A = styled.a`
 color: black;
@@ -1435,6 +1436,45 @@ function VideoLink() {
 
     }
 
+
+
+
+    const FHD220902= [
+        ["4대5 한타 승리",
+            "https://www.youtube.com/watch?v=QG8tkCy3oR4"],
+        ["나르 점멸 궁",
+            "https://www.youtube.com/watch?v=iwQv75w6B00"],
+        ["나르 자발 궁",
+            "https://www.youtube.com/watch?v=XaTFz6X_aJo"],
+        ["시비르 카이팅",
+            "https://www.youtube.com/watch?v=UyAX40o7wa0"],
+        ["역전 몰왕레오나",
+            "https://www.youtube.com/watch?v=eZvCuKkhMTs"],
+        ["티모 실명",
+            "https://www.youtube.com/watch?v=TZo7O3BBMnE"],
+        ["카직스 스로잉 카밀엔딩",
+            "https://www.youtube.com/watch?v=x11jxXJfNR4"],
+        ["나르 5인궁",
+            "https://www.youtube.com/watch?v=oasmQuMXduQ"],
+        ["자발 나르",
+            "https://www.youtube.com/watch?v=crhsYighgqs"],
+        ["아칼리 쿼드라",
+            "https://www.youtube.com/watch?v=mnx8sQDwNUo"],
+        ["자발 나르 콤보",
+            "https://www.youtube.com/watch?v=mnx8sQDwNUo"],
+        ["결국 역전승",
+            "https://www.youtube.com/watch?v=scUvtaeLMdA"],
+
+    ]
+
+
+    // const FHD220902= [
+    //     ["",
+    //         ""],
+    //
+    // ]
+
+
     // const FHD220817= {
     //     L1: {
     //         title: "",
@@ -1446,6 +1486,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD220902} date={"220902"}/>
 
             <DatePerLink data={FHD220901} date={"220901"}/>
 

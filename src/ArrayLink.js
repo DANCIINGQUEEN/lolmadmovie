@@ -29,23 +29,17 @@ border-radius:30px;
 padding:0
 `
 
-function DatePerLink({data, date}) {
-
-
+function ArrayLink({data, date}) {
     return (
         <div>
-
-
-
-
             <Container>
                 <P>{date.slice(0, 2) + "-" + date.slice(2, 4) + "-" + date.slice(4, 6)}</P>
-                {
-                    Object.entries(data).map((game) => (
-                        <Li id={game[1].title}>
-                            <A href={game[1].link}>{game[1].title}</A>
-                        </Li>
 
+                {
+                    Object.entries(data).map(list => (
+                        <Li id={list[1][0]}>
+                            <A href={list[1][1]}>{list[1][0]}</A>
+                        </Li>
                     ))
                 }
             </Container>
@@ -53,4 +47,4 @@ function DatePerLink({data, date}) {
     );
 }
 
-export default DatePerLink;
+export default ArrayLink;
