@@ -1495,11 +1495,11 @@ function VideoLink() {
             <DatePerLink data={FHD220831} date={"220831"}/>
 
 
-            <DatePerLink data={FHD220827} date={"220807"}/>
+            <DatePerLink data={FHD220827} date={"220827"}/>
 
 
 
-            <DatePerLink data={FHD220826} date={"220806"}/>
+            <DatePerLink data={FHD220826} date={"220826"}/>
 
 
             {/*22-08-25*/}
