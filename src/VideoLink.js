@@ -1467,6 +1467,20 @@ function VideoLink() {
 
     ]
 
+    const FHD220912= [
+        ["아펠레이스 무빙",
+            "https://www.youtube.com/watch?v=KqXgFaQxx0g"],
+        ["리산드라 이니시 사미라 쿼드라",
+            "https://www.youtube.com/watch?v=fWSCrnVzbaQ"],
+        ["말파 이니시",
+            "https://www.youtube.com/watch?v=okM4CtufVZw"],
+        ["리산드라 이니시",
+            "https://www.youtube.com/watch?v=YnUpmypSOvc"],
+        ["말파 늦궁 딜러 컷",
+            "https://www.youtube.com/watch?v=xoUTYFUqOPE"],
+
+    ]
+
 
     // const FHD220902= [
     //     ["",
@@ -1486,6 +1500,9 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD220912} date={"220912"}/>
+
 
             <ArrayLink data={FHD220902} date={"220902"}/>
 
