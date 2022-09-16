@@ -1494,6 +1494,24 @@ function VideoLink() {
 
     ]
 
+    const FHD220917= [
+        ["미포 세탁기",
+            "https://www.youtube.com/watch?v=PUOyKTpeRxE"],
+        ["딜량 1등 문도",
+            "https://www.youtube.com/watch?v=pD_cAtEdqCk"],
+        ["미포 쿼드라",
+            "https://www.youtube.com/watch?v=dCfdy4_OoVg"],
+        ["다이애나 벽꿍",
+            "https://www.youtube.com/watch?v=C_YpHUCKmQQ"],
+        ["카밀 이니시 말파 4인궁",
+            "https://www.youtube.com/watch?v=mZjKwJIarJI"],
+        ["말피 4인궁",
+            "https://www.youtube.com/watch?v=Sc4bl26jRDg"],
+        ["카직스 쿼드라",
+            "https://www.youtube.com/watch?v=mUyC7p0e2mo"],
+
+    ]
+
 
 
     // const FHD220902= [
@@ -1514,6 +1532,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD220917} date={"220917"}/>
 
             <ArrayLink data={FHD220916} date={"220916"}/>
 
