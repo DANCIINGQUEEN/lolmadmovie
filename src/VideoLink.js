@@ -1482,6 +1482,20 @@ function VideoLink() {
     ]
 
 
+    const FHD220916= [
+        ["판테온 끝내기 궁",
+            "https://www.youtube.com/watch?v=ssQfcqDv6ek"],
+        ["아칼리 생존",
+            "https://www.youtube.com/watch?v=Nclzr3fvBBc"],
+        ["비에고 쿼드라",
+            "https://www.youtube.com/watch?v=vmQCIE0ps0k"],
+        ["2코 패배 국룰",
+            "https://www.youtube.com/watch?v=yy2unPRkw_4"],
+
+    ]
+
+
+
     // const FHD220902= [
     //     ["",
     //         ""],
@@ -1500,6 +1514,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD220916} date={"220916"}/>
 
             <ArrayLink data={FHD220912} date={"220912"}/>
 
