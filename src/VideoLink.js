@@ -1505,10 +1505,29 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=C_YpHUCKmQQ"],
         ["카밀 이니시 말파 4인궁",
             "https://www.youtube.com/watch?v=mZjKwJIarJI"],
-        ["말피 4인궁",
+        ["말파 4인궁",
             "https://www.youtube.com/watch?v=Sc4bl26jRDg"],
         ["카직스 쿼드라",
             "https://www.youtube.com/watch?v=mUyC7p0e2mo"],
+
+    ]
+
+
+    const FHD220918= [
+        ["오공 스로잉, 존나 비벼서 이기기",
+            "https://www.youtube.com/watch?v=2dUPq0QwPHY"],
+        ["존나 비비기",
+            "https://www.youtube.com/watch?v=SHJoX03lp-4"],
+        ["르블랑 쿼드라",
+            "https://www.youtube.com/watch?v=8QsJ-Yg3tYY"],
+        ["스웨인 한타 장악",
+            "https://www.youtube.com/watch?v=4_ueRyU0wCQ"],
+        ["사미라 쿼드라",
+            "https://www.youtube.com/watch?v=XMjYyELeqi4"],
+        ["아트록스 이니시",
+            "https://www.youtube.com/watch?v=DfOMKb0NwaE"],
+        ["진 쿼드라",
+            "https://www.youtube.com/watch?v=4xyoniM7uic"],
 
     ]
 
@@ -1532,6 +1551,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD220918} date={"220918"}/>
 
             <ArrayLink data={FHD220917} date={"220917"}/>
 
