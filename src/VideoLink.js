@@ -1531,6 +1531,46 @@ function VideoLink() {
 
     ]
 
+    const FHD220922= [
+        ["게임 끝내고 놀기",
+            "https://www.youtube.com/watch?v=rQxNYS9Owv8"],
+        ["자르반 이니시 느린버전",
+            "https://www.youtube.com/watch?v=ZBISxJBh6Aw"],
+        ["자르반 이니시",
+            "https://www.youtube.com/watch?v=rVXflseb_fo"],
+        ["세라핀",
+            "https://www.youtube.com/watch?v=oOyGxwSdSLU"],
+        ["야소 쿼드라",
+            "https://www.youtube.com/watch?v=-UFFARJtwsg"],
+
+    ]
+    const FHD220923= [
+        ["티모 인생 무빙 후 사망",
+            "https://www.youtube.com/watch?v=3EiBHvG5Up8"],
+        ["티모 시간끌기",
+            "https://www.youtube.com/watch?v=unhJm3bGavQ"],
+        ["워윅 이니시 버섯",
+            "https://www.youtube.com/watch?v=L1eY6KiLsGU"],
+        ["티모 끔살",
+            "https://www.youtube.com/watch?v=jiZR7KYNrtE"],
+        ["세주 반격",
+            "https://www.youtube.com/watch?v=Pra-U7aBwjU"],
+        ["한타 승리",
+            "https://www.youtube.com/watch?v=VTZYe35Xvz0"],
+        ["티모 검거",
+            "https://www.youtube.com/watch?v=PWYfwWeemiM"],
+        ["이즈 앞비전 버섯밟기",
+            "https://www.youtube.com/watch?v=2aKgodl29J4"],
+        ["티모",
+            "https://www.youtube.com/watch?v=4_jQyvvEI5k"],
+        ["일기토",
+            "https://www.youtube.com/watch?v=L841nkyC62c"],
+        ["티모 버섯",
+            "https://www.youtube.com/watch?v=HO-uIQJW-Ms"],
+        ["티모 뒤통수, 세주 궁, 워윅 1대1",
+            "https://www.youtube.com/watch?v=cemETespne4"],
+
+        ]
 
 
     // const FHD220902= [
@@ -1551,6 +1591,10 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD220923} date={"220923"}/>
+
+            <ArrayLink data={FHD220922} date={"220922"}/>
 
             <ArrayLink data={FHD220918} date={"220918"}/>
 
