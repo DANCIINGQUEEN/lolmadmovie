@@ -1572,6 +1572,25 @@ function VideoLink() {
 
         ]
 
+    const FHD220925= [
+        ["사일러스 이니시",
+            "https://www.youtube.com/watch?v=46bl0xA5jtA"],
+        ["반격",
+            "https://www.youtube.com/watch?v=_aAsN0k3DsE"],
+        ["미스포츈 마무리궁",
+            "https://www.youtube.com/watch?v=M9qE0dpLA-w"],
+        ["트위치 양념 마무리",
+            "https://www.youtube.com/watch?v=XCZtJe1n_Hc"],
+        ["트위치 무호흡 딜링",
+            "https://www.youtube.com/watch?v=tcB7H6pQxIU"],
+        ["사일러스 다 죽이기",
+            "https://www.youtube.com/watch?v=ahjv-_Y20M4"],
+        ["자야, 피오라 개빡딜",
+            "https://www.youtube.com/watch?v=KN_3iUPU3do"],
+        ["자야 개빡딜",
+            "https://www.youtube.com/watch?v=dhBI-R0ccJo"],
+
+    ]
 
     // const FHD220902= [
     //     ["",
@@ -1591,6 +1610,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD220925} date={"220925"}/>
 
             <ArrayLink data={FHD220923} date={"220923"}/>
 
