@@ -1592,6 +1592,21 @@ function VideoLink() {
 
     ]
 
+
+    const FHD220930= [
+        ["마지막 적 처지",
+            "https://www.youtube.com/watch?v=Q36lMK97DaQ"],
+        ["딜러 잡기",
+            "https://www.youtube.com/watch?v=DKXSCJKv83c"],
+        ["케인 잡기",
+            "https://www.youtube.com/watch?v=z6fbea7kRNI"],
+        ["마지막 한타",
+            "https://www.youtube.com/watch?v=EA4pRvNX5cs"],
+        ["닐라 이니시",
+            "https://www.youtube.com/watch?v=f2Dc0H7M6uQ"],
+
+    ]
+
     // const FHD220902= [
     //     ["",
     //         ""],
@@ -1610,6 +1625,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD220930} date={"220930"}/>
 
             <ArrayLink data={FHD220925} date={"220925"}/>
 
