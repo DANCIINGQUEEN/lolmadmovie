@@ -1629,8 +1629,32 @@ function VideoLink() {
         
     ]
 
+    const FHD221002= [
+        ["말자하 점멸 궁 이니시",
+            "https://www.youtube.com/watch?v=Xt3q5ohbIko"],
+        ["브랜드와 비에고",
+            "https://www.youtube.com/watch?v=ukHlX6Urx1s"],
+        ["아크샨 3바퀴 돌기",
+            "https://www.youtube.com/watch?v=eVDHxMtq-gc"],
+        ["안죽는 렝가",
+            "https://www.youtube.com/watch?v=2BnAM4BhhKs"],
+        ["그웬, 갱플 이니시",
+            "https://www.youtube.com/watch?v=RThfvesJT0Q"],
+        ["마무리",
+            "https://www.youtube.com/watch?v=SUb3jROWPj4"],
+        ["벨코즈 궁 뒤로쓰기",
+            "https://www.youtube.com/watch?v=1H-oURVgsv8"],
+        ["트위치 쿼드라 후 끝내기",
+            "https://www.youtube.com/watch?v=9Bk1FP0fNjQ"],
+        ["쓰레쉬 그랩 이니시",
+            "https://www.youtube.com/watch?v=mBVhoDefmOU"],
+        ["쓰레쉬 그랩 이니시 2",
+            "https://www.youtube.com/watch?v=e4wc6UY7PBE"],
 
-    // const FHD220902= [
+    ]
+
+
+    // const FHD221002= [
     //     ["",
     //         ""],
     //
@@ -1648,6 +1672,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221002} date={"221002"}/>
 
             <ArrayLink data={FHD221001} date={"221001"}/>
 
