@@ -1607,6 +1607,29 @@ function VideoLink() {
 
     ]
 
+    const FHD221001= [
+        ["캐낸 이니시",
+            "https://www.youtube.com/watch?v=-fb2DdLXqSQ"],
+        ["케넨 이니시2",
+            "https://www.youtube.com/watch?v=Tjjr1r5qAd0"],
+        ["케넨 이니시3",
+            "https://www.youtube.com/watch?v=sW7MuG5O1Rk"],
+        ["인간미",
+            "https://www.youtube.com/watch?v=Y4GIEEM3eHE"],
+        ["마이 쿼드라 받아먹기",
+            "https://www.youtube.com/watch?v=eng7V1XfQww"],
+        ["끝내기",
+            "https://www.youtube.com/watch?v=r0fG_7ZcthA"],
+        ["안죽는 해카림",
+            "https://www.youtube.com/watch?v=tGm2Ybwhiek"],
+        ["무쌍찍는 해카림, 마무리하는 마스터이",
+            "https://www.youtube.com/watch?v=IINkHUMEVic"],
+        ["무쌍찍는 해카림, 마무리하는 마스터이2",
+            "https://www.youtube.com/watch?v=zC9-SAKtLr8"],
+        
+    ]
+
+
     // const FHD220902= [
     //     ["",
     //         ""],
@@ -1625,6 +1648,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221001} date={"221001"}/>
 
             <ArrayLink data={FHD220930} date={"220930"}/>
 
