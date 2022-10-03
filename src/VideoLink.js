@@ -1653,6 +1653,50 @@ function VideoLink() {
 
     ]
 
+    const FHD221003_1= [
+        ["마지막 한타",
+            "https://www.youtube.com/watch?v=2HxDdtQr8eM"],
+
+    ]
+
+    const FHD221003_2= [
+        ["파이크 쿼드라",
+            "https://www.youtube.com/watch?v=H7308t-sns4"],
+        ["사일러스 튕김",
+            "https://www.youtube.com/watch?v=QFL3Z7wNBLw"],
+        ["워윅 3랩 펜타킬",
+            "https://www.youtube.com/watch?v=Ewed0Hnp1H4"],
+        ["워웍 쿼드라",
+            "https://www.youtube.com/watch?v=PXlUSQmYdAw"],
+        ["렐 이니시",
+            "https://www.youtube.com/watch?v=6mpFTiSqYlY"],
+        ["렐 5인궁 5인 스턴",
+            "https://www.youtube.com/watch?v=08ZNT2zP2sc"],
+        ["재매이햄 궁각",
+            "https://www.youtube.com/watch?v=TbQtX7MAZIw"],
+        ["부쉬 슈팅게임",
+            "https://www.youtube.com/watch?v=erp3Q1v2RCI"],
+        ["오른 뻘궁",
+            "https://www.youtube.com/watch?v=DEzsN0D2l5w"],
+        ["신지드 점멸 넘기기",
+            "https://www.youtube.com/watch?v=qjF6UXxGOdc"],
+        ["아크샨 부활, 라이즈 통수치기",
+            "https://www.youtube.com/watch?v=u-ylqPKbmWI"],
+        ["3대5로 싸움거는 적, 당연한 패배",
+            "https://www.youtube.com/watch?v=tl_AoQpBFfw"],
+        ["신지드 상대 농락",
+            "https://www.youtube.com/watch?v=Q3HJ_6HkEXI"],
+        ["블츠 미친 폭딜",
+            "https://www.youtube.com/watch?v=aBFTatnc6nU"],
+        ["이렐리아 쿼드라",
+            "https://www.youtube.com/watch?v=fPCMV338ZN8"],
+        ["블츠 q 딜",
+            "https://www.youtube.com/watch?v=6gwB59-J35M"],
+        ["블츠 인형뽑기",
+            "https://www.youtube.com/watch?v=uOrTBjyTGyw"],
+
+    ]
+
 
     // const FHD221002= [
     //     ["",
@@ -1672,6 +1716,10 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221003_2} date={"221003-2"}/>
+
+            <ArrayLink data={FHD221003_1} date={"221003-1"}/>
 
             <ArrayLink data={FHD221002} date={"221002"}/>
 
