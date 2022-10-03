@@ -1673,7 +1673,7 @@ function VideoLink() {
         ["렐 5인궁 5인 스턴",
             "https://www.youtube.com/watch?v=08ZNT2zP2sc"],
         ["재매이햄 궁각",
-            "https://www.youtube.com/watch?v=TbQtX7MAZIw"],
+            "https://www.youtube.com/watch?v=aAqCrPn1Py8"],
         ["부쉬 슈팅게임",
             "https://www.youtube.com/watch?v=erp3Q1v2RCI"],
         ["오른 뻘궁",
