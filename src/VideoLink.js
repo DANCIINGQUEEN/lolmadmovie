@@ -1698,6 +1698,17 @@ function VideoLink() {
     ]
 
 
+    const FHD221004= [
+        ["킨드 궁에서 꺼내는 우르곳",
+            "https://www.youtube.com/watch?v=3CdHCl5Q9yA"],
+        ["애매한 이니시 성공",
+            "https://www.youtube.com/watch?v=a5g7pPqxWNo"],
+        ["브랜드 살리기",
+            "https://www.youtube.com/watch?v=DsVd_Hp0FHo"],
+
+    ]
+
+
     // const FHD221002= [
     //     ["",
     //         ""],
@@ -1716,6 +1727,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221004} date={"221004"}/>
 
             <ArrayLink data={FHD221003_2} date={"221003-2"}/>
 
