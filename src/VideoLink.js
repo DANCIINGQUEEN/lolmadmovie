@@ -1709,6 +1709,39 @@ function VideoLink() {
     ]
 
 
+    const FHD221008= [
+        ["아트록스 펜타킬",
+            "https://www.youtube.com/watch?v=a0erceeb4rc"],
+        ["막무가내 이니시",
+            "https://www.youtube.com/watch?v=_4uDkOcelP4"],
+        ["제이스 승천",
+            "https://www.youtube.com/watch?v=_kTXc0_Y7KE"],
+        ["다리우스 펜타킬",
+            "https://www.youtube.com/watch?v=yDWyGDaffl4"],
+        ["다리 쿼드라",
+            "https://www.youtube.com/watch?v=uCBLOAdcht8"],
+        ["마이 딸피 쿼드라",
+            "https://www.youtube.com/watch?v=jMv4v122qVA"],
+        ["말파 원딜잡기",
+            "https://www.youtube.com/watch?v=AHBJRHee8dE"],
+        ["펑",
+            "https://www.youtube.com/watch?v=Kbt2EjKleEM"],
+        ["벨베스 생존",
+            "https://www.youtube.com/watch?v=PiFx12xeUnk"],
+        ["벨베스 공속",
+            "https://www.youtube.com/watch?v=ogjrO8byuug"],
+        ["벨베스 넥뿌",
+            "https://www.youtube.com/watch?v=BzZOYCn_TeA"],
+        ["노틸 이니시",
+            "https://www.youtube.com/watch?v=tcykPrPdz1Q"],
+        ["노틸 이니시2",
+            "https://www.youtube.com/watch?v=4QlF8lnP2wY"],
+        ["코그모 무호흡딜링",
+            "https://www.youtube.com/watch?v=d6WySUOf3pM"],
+
+        ]
+
+
     // const FHD221002= [
     //     ["",
     //         ""],
@@ -1727,6 +1760,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221008} date={"221008"}/>
 
             <ArrayLink data={FHD221004} date={"221004"}/>
 
