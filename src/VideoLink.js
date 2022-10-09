@@ -1741,6 +1741,41 @@ function VideoLink() {
 
         ]
 
+    const FHD221009= [
+        ["나르 이니시",
+            "https://www.youtube.com/watch?v=Zkgg81rppUg"],
+        ["세트 역이니시",
+            "https://www.youtube.com/watch?v=uxy9R2G5T1c"],
+        ["세트 요네",
+            "https://www.youtube.com/watch?v=vXzhUo25tl8"],
+        ["세트 자크 이니시",
+            "https://www.youtube.com/watch?v=8nhMXdx_5K8"],
+        ["옷갈아입는 비에고 쿼드라",
+            "https://www.youtube.com/watch?v=DuIy9UVbt7E"],
+        ["옷갈아입는 비에고 쿼드라2",
+            "https://www.youtube.com/watch?v=87JQB9WuiUQ"],
+        ["옷갈아입는 비에고 쿼드라3",
+            "https://www.youtube.com/watch?v=plCiWYzedoQ"],
+        ["염병하는 비에고",
+            "https://www.youtube.com/watch?v=uLIN97oRKjQ"],
+        ["애쉬 폭사",
+            "https://www.youtube.com/watch?v=u7a9QUsQlzk"],
+        ["길고 더러운 싸움2",
+            "https://www.youtube.com/watch?v=KHnUntpR1lk"],
+        ["길고 더러운 싸움",
+            "https://www.youtube.com/watch?v=2fAdckNSDiU"],
+        ["이렐 5인기절",
+            "https://www.youtube.com/watch?v=LNvT8lYiWd4"],
+        ["람머스 먼저 잡기",
+            "https://www.youtube.com/watch?v=3lBoBW5MeXM"],
+        ["기절기절기절",
+            "https://www.youtube.com/watch?v=kWlOgiwwb_o"],
+        ["쉬바나 딜",
+            "https://www.youtube.com/watch?v=T2ljP3BbRwQ"],
+        ["진 쿼드라",
+            "https://www.youtube.com/watch?v=KPAJWljWYWw"],
+
+    ]
 
     // const FHD221002= [
     //     ["",
@@ -1760,6 +1795,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221009} date={"221009"}/>
 
             <ArrayLink data={FHD221008} date={"221008"}/>
 
