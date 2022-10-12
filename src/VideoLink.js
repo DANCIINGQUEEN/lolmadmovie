@@ -1807,6 +1807,8 @@ function VideoLink() {
         <div>
             <HorizonLine text={"1080p"}/>
 
+            <ArrayLink data={FHD221012} date={"221012"}/>
+
             <ArrayLink data={FHD221009} date={"221009"}/>
 
             <ArrayLink data={FHD221008} date={"221008"}/>
