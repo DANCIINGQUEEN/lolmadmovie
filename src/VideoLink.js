@@ -1328,8 +1328,6 @@ function VideoLink() {
 
     }
 
-
-
     const FHD220827= {
         L1: {
             title: "오리, 닐라, 야스오",
@@ -1369,7 +1367,6 @@ function VideoLink() {
         },
 
     }
-
 
     const FHD220831= {
         L1: {
@@ -1436,9 +1433,6 @@ function VideoLink() {
 
     }
 
-
-
-
     const FHD220902= [
         ["4대5 한타 승리",
             "https://www.youtube.com/watch?v=QG8tkCy3oR4"],
@@ -1481,7 +1475,6 @@ function VideoLink() {
 
     ]
 
-
     const FHD220916= [
         ["판테온 끝내기 궁",
             "https://www.youtube.com/watch?v=ssQfcqDv6ek"],
@@ -1511,7 +1504,6 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=mUyC7p0e2mo"],
 
     ]
-
 
     const FHD220918= [
         ["오공 스로잉, 존나 비벼서 이기기",
@@ -1544,6 +1536,7 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=-UFFARJtwsg"],
 
     ]
+
     const FHD220923= [
         ["티모 인생 무빙 후 사망",
             "https://www.youtube.com/watch?v=3EiBHvG5Up8"],
@@ -1591,7 +1584,6 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=dhBI-R0ccJo"],
 
     ]
-
 
     const FHD220930= [
         ["마지막 적 처지",
@@ -1697,7 +1689,6 @@ function VideoLink() {
 
     ]
 
-
     const FHD221004= [
         ["킨드 궁에서 꺼내는 우르곳",
             "https://www.youtube.com/watch?v=3CdHCl5Q9yA"],
@@ -1707,7 +1698,6 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=DsVd_Hp0FHo"],
 
     ]
-
 
     const FHD221008= [
         ["아트록스 펜타킬",
@@ -1777,11 +1767,32 @@ function VideoLink() {
 
     ]
 
+    const FHD221012= [
+        ["블츠 궁극기",
+            "https://www.youtube.com/watch?v=s5MAoIJ2CJI"],
+        ["받아치기",
+            "https://www.youtube.com/watch?v=P4JBqwSTdA8"],
+        ["받아치기2",
+            "https://www.youtube.com/watch?v=QJtn2doYTKg"],
+        ["받아치기3",
+            "https://www.youtube.com/watch?v=WT2Xd9CTEYg"],
+        ["첫 한타 승리",
+            "https://www.youtube.com/watch?v=nV5ClupES1w"],
+        ["애쉬한테 따잇",
+            "https://www.youtube.com/watch?v=5MFchLhS_PI"],
+        ["승리",
+            "https://www.youtube.com/watch?v=n5ROOSW9iTU"],
+
+    ]
+
+
     // const FHD221002= [
     //     ["",
     //         ""],
     //
     // ]
+
+
 
 
     // const FHD220817= {
