@@ -1767,7 +1767,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221012= [
+    const FHD221011= [
         ["블츠 궁극기",
             "https://www.youtube.com/watch?v=s5MAoIJ2CJI"],
         ["받아치기",
@@ -1782,6 +1782,46 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=5MFchLhS_PI"],
         ["승리",
             "https://www.youtube.com/watch?v=n5ROOSW9iTU"],
+
+    ]
+
+    const FHD221012= [
+        ["케이틀린 비공식 쿼드라",
+            "https://www.youtube.com/watch?v=xgux-oOOEy4"],
+        ["자크 이니시",
+            "https://www.youtube.com/watch?v=COdhwtxoMP4"],
+        ["마무리",
+            "https://www.youtube.com/watch?v=PrB_sdvHQT8"],
+        ["자크 이니시2 겜 끝",
+            "https://www.youtube.com/watch?v=8LQfZlYNrt0"],
+        ["케넨 이니시",
+            "https://www.youtube.com/watch?v=wMy-K3nrQl8"],
+        ["코그모 잡기",
+            "https://www.youtube.com/watch?v=CN9jr3rnFL4"],
+        ["탈론 하드스로잉",
+            "https://www.youtube.com/watch?v=g6TM91Ptwsk"],
+
+    ]
+
+    const FHD221013= [
+        ["에코 이니시",
+            "https://www.youtube.com/watch?v=bQ_gMc14ats"],
+        ["아칼리 쿼드라 받아먹기",
+            "https://www.youtube.com/watch?v=3Qfo-ZLuhU0"],
+        ["아칼리 쿼드라 펜타 실패",
+            "https://www.youtube.com/watch?v=4SlxiT5c7p4"],
+        ["아칼리 5대1 생존",
+            "https://www.youtube.com/watch?v=XCe25yfighI"],
+        ["마무리",
+            "https://www.youtube.com/watch?v=XQR44ESLh7o"],
+        ["칼리스타 씹캐리",
+            "https://www.youtube.com/watch?v=ypQjdF-fRRo"],
+        ["혜지로는 못 막는 돌진",
+            "https://www.youtube.com/watch?v=pkk0Fkn2jbI"],
+        ["혜지로는 못 막는 돌진2",
+            "https://www.youtube.com/watch?v=jalf3zaFD3A"],
+        ["뽀삐 몸니시",
+            "https://www.youtube.com/watch?v=OZM4Rpm1MrY"],
 
     ]
 
@@ -1807,7 +1847,11 @@ function VideoLink() {
         <div>
             <HorizonLine text={"1080p"}/>
 
+            <ArrayLink data={FHD221013} date={"221013"}/>
+
             <ArrayLink data={FHD221012} date={"221012"}/>
+
+            <ArrayLink data={FHD221011} date={"221011"}/>
 
             <ArrayLink data={FHD221009} date={"221009"}/>
 
