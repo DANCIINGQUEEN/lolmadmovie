@@ -1825,6 +1825,36 @@ function VideoLink() {
 
     ]
 
+    const FHD221014= [
+        ["바이 펜타킬",
+            "https://www.youtube.com/watch?v=x8dvRtr1G68"],
+        ["니코 4인궁",
+            "https://www.youtube.com/watch?v=D7LaSBfTUR0"],
+        ["안죽는 스웨인, 마스터이",
+            "https://www.youtube.com/watch?v=JeN6hypvDlQ"],
+        ["스웨인 이니시",
+            "https://www.youtube.com/watch?v=kCRkhUbTkFA"],
+        ["오른 패왕색 말파 이니시",
+            "https://www.youtube.com/watch?v=ftm710O2sAM"],
+        ["오른 말파 합작",
+            "https://www.youtube.com/watch?v=gtZtuoSwfF0"],
+        ["브랜드, 트위치 잡고 겜 끝내기",
+            "https://www.youtube.com/watch?v=LsjfbngUBJg"],
+        ["말자하 점멸 궁",
+            "https://www.youtube.com/watch?v=R9gOw2Wh964"],
+        ["무지성 포탑 다이브",
+            "https://www.youtube.com/watch?v=h-q82DoNBs4"],
+        ["슈렐 말자하 점멸 궁, 비에고 옷 갈아입기",
+            "https://www.youtube.com/watch?v=Fy8woLT-D4E"],
+        ["밀고 들어가서 겜 끝내기",
+            "https://www.youtube.com/watch?v=kq0PHs75LGw"],
+        ["바이 코그모 잡기",
+            "https://www.youtube.com/watch?v=eXCQ0Pg6RsA"],
+        ["바이 코그모 잡기 2",
+            "https://www.youtube.com/watch?v=SGoHgKRR3R8"],
+
+    ]
+
 
     // const FHD221002= [
     //     ["",
@@ -1846,6 +1876,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221014} date={"221014"}/>
 
             <ArrayLink data={FHD221013} date={"221013"}/>
 
