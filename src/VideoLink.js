@@ -1855,6 +1855,37 @@ function VideoLink() {
 
     ]
 
+    const FHD221016= [
+        ["한놈씩 자르기",
+            "https://www.youtube.com/watch?v=gu7KXvIreMc"],
+        ["잔나 궁",
+            "https://www.youtube.com/watch?v=B-rDfAKimks"],
+        ["안죽는 딜러들",
+            "https://www.youtube.com/watch?v=YT-wFITB6k4"],
+        ["뚜벅이들 컷",
+            "https://www.youtube.com/watch?v=BvdrQ_fPKU0"],
+        ["딜러들 프리딜",
+            "https://www.youtube.com/watch?v=GRWzNiSpUk8"],
+        ["딜러들 프리딜 2",
+            "https://www.youtube.com/watch?v=WK-1GAsbi8Q"],
+        ["단단한 말파이트",
+            "https://www.youtube.com/watch?v=lA6ohZeVaD4"],
+        ["브랜드 야바위",
+            "https://www.youtube.com/watch?v=xP5CCD4nGk4"],
+        ["트린다이머 펜타킬",
+            "https://www.youtube.com/watch?v=rgKwiI6z9QE"],
+        ["가렌 이니시",
+            "https://www.youtube.com/watch?v=p0L56Zb7ZW4"],
+        ["코그모 잡기, 이렐 마무리",
+            "https://www.youtube.com/watch?v=6SvP8ddyu0U"],
+        ["잔나 궁",
+            "https://www.youtube.com/watch?v=J5wWo8s9iuQ"],
+        ["이렐리아 무쌍",
+            "https://www.youtube.com/watch?v=MGNZcXR5HC4"],
+        ["이렐 쿼드라",
+            "https://www.youtube.com/watch?v=Ykoqx1Iw174"],
+
+    ]
 
     // const FHD221002= [
     //     ["",
@@ -1876,6 +1907,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221016} date={"221016"}/>
 
             <ArrayLink data={FHD221014} date={"221014"}/>
 
