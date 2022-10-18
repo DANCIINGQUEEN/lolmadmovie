@@ -1886,6 +1886,19 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=Ykoqx1Iw174"],
 
     ]
+    const FHD221018= [
+        ["베인 어그로",
+            "https://www.youtube.com/watch?v=tkBGN-2eEfs"],
+        ["비에고 쿼드라",
+            "https://www.youtube.com/watch?v=JYIx5-mJs9M"],
+        ["존나 못하는 상대팀",
+            "https://www.youtube.com/watch?v=5vCipxBFMGA"],
+        ["존나 못하는 상대팀2",
+            "https://www.youtube.com/watch?v=9r7tALFC1ZA"],
+
+    ]
+
+
 
     // const FHD221002= [
     //     ["",
@@ -1907,6 +1920,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221018} date={"221018"}/>
 
             <ArrayLink data={FHD221016} date={"221016"}/>
 
