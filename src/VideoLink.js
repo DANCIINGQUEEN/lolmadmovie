@@ -1886,6 +1886,7 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=Ykoqx1Iw174"],
 
     ]
+
     const FHD221018= [
         ["베인 어그로",
             "https://www.youtube.com/watch?v=tkBGN-2eEfs"],
@@ -1897,6 +1898,47 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=9r7tALFC1ZA"],
 
     ]
+
+    const FHD221020= [
+        ["레나타, 질리언 버프",
+            "https://www.youtube.com/watch?v=afTefsGe8BA"],
+        ["바이 이니시2",
+            "https://www.youtube.com/watch?v=eS4Xw8rU0o0"],
+        ["레나타, 질리언 버프2",
+            "https://www.youtube.com/watch?v=4jx5rr5OqMg"],
+        ["레나타 궁극기",
+            "https://www.youtube.com/watch?v=flP6Z53aOGY"],
+        ["바이, 이렐 이니시",
+            "https://www.youtube.com/watch?v=oDx5U56pb5A"],
+        ["일기토",
+            "https://www.youtube.com/watch?v=73_mTjvIzmA"],
+        ["원딜 프리딜",
+            "https://www.youtube.com/watch?v=Ae-kiGJjffo"],
+        ["모데 하드스로잉, 카이사 프리딜",
+            "https://www.youtube.com/watch?v=eaNojqzRbys"],
+        ["말파이트",
+            "https://www.youtube.com/watch?v=ymuy6vlsn_4"],
+        ["바이 이니시",
+            "https://www.youtube.com/watch?v=FFxfl9k-6J8"],
+        ["노틸 무지성 이니시 후 진, 티모 카이팅",
+            "https://www.youtube.com/watch?v=pPDtoz1-TyU"],
+        ["게임을 끝내는 진의 속박",
+            "https://www.youtube.com/watch?v=UGEm0toqKZ8"],
+        ["아지르 중장비 컨트롤",
+            "https://www.youtube.com/watch?v=D7s1LHfkaBw"],
+        ["아지르 중장비 컨트롤2",
+            "https://www.youtube.com/watch?v=RYiKPMTUcic"],
+        ["4대5승리",
+            "https://www.youtube.com/watch?v=uBoDmhcggkI"],
+        ["아지르 중장비 컨트롤3",
+            "https://www.youtube.com/watch?v=y5BZ1mnK_w8"],
+        ["아지르 중장비 컨트롤4",
+            "https://www.youtube.com/watch?v=o1QauWMFyW8"],
+        ["아지르 중장비 컨트롤5",
+            "https://www.youtube.com/watch?v=Gh_xncqq_l0"],
+
+    ]
+
 
 
 
@@ -1920,6 +1962,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221020} date={"221020"}/>
 
             <ArrayLink data={FHD221018} date={"221018"}/>
 
@@ -1963,18 +2007,13 @@ function VideoLink() {
 
             <ArrayLink data={FHD220912} date={"220912"}/>
 
-
             <ArrayLink data={FHD220902} date={"220902"}/>
 
             <DatePerLink data={FHD220901} date={"220901"}/>
 
-
             <DatePerLink data={FHD220831} date={"220831"}/>
 
-
             <DatePerLink data={FHD220827} date={"220827"}/>
-
-
 
             <DatePerLink data={FHD220826} date={"220826"}/>
 
