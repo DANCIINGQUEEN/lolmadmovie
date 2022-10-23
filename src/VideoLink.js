@@ -1939,6 +1939,26 @@ function VideoLink() {
 
     ]
 
+    const FHD221023= [
+            ["알리스타 이니시",
+                "https://www.youtube.com/watch?v=7gN7ojjtLQY"],
+            ["대 역 전",
+                "https://www.youtube.com/watch?v=oGVdGBvjqvs"],
+            ["아크샨 무한 휠",
+                "https://www.youtube.com/watch?v=0du-JeFWG6c"],
+            ["징크스 프리딜",
+                "https://www.youtube.com/watch?v=gKJjYS_OGJY"],
+            ["안죽는 렝가",
+                "https://www.youtube.com/watch?v=0LLoiLAoH8Y"],
+            ["신드라 쿼드라",
+                "https://www.youtube.com/watch?v=iMvJnplMXug"],
+            ["안죽는 렝가, 딜러 프리딜",
+                "https://www.youtube.com/watch?v=tE6MHNMEdk8"],
+            ["탈리야 신드라 징크스",
+                "https://www.youtube.com/watch?v=N-5LXABw_DQ"],
+
+        ]
+
 
 
 
@@ -1962,6 +1982,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221023} date={"221023"}/>
 
             <ArrayLink data={FHD221020} date={"221020"}/>
 
