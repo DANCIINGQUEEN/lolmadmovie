@@ -1959,6 +1959,38 @@ function VideoLink() {
 
         ]
 
+    const FHD221026= [
+            ["궁 연계",
+                "https://www.youtube.com/watch?v=G2emMAqPMgs"],
+            ["요, 야 연계 실패",
+                "https://www.youtube.com/watch?v=uChpcjov2wA"],
+            ["아무무 4인궁",
+                "https://www.youtube.com/watch?v=4SCBOYfjklM"],
+            ["세주아니 이니시",
+                "https://www.youtube.com/watch?v=aRccUIqIO3Y"],
+            ["나서스 대가리 깨기",
+                "https://www.youtube.com/watch?v=oVyEnRFCgM4"],
+            ["람머스 번지점프",
+                "https://www.youtube.com/watch?v=jeSlEDNLUKw"],
+            ["유일한 한타승리",
+                "https://www.youtube.com/watch?v=dqSRZf4WjhE"],
+            ["미스포튠 프리딜",
+                "https://www.youtube.com/watch?v=fz9-we2WizU"],
+            ["추노",
+                "https://www.youtube.com/watch?v=2QVrwCjK5ls"],
+            ["미스포튠",
+                "https://www.youtube.com/watch?v=x6eDVBJD4PI"],
+            ["자르반 5인궁",
+                "https://www.youtube.com/watch?v=0Bj2LBBIDAA"],
+            ["그라가스 이니시, 이렐 마무리",
+                "https://www.youtube.com/watch?v=afhiWwqWsCU"],
+            ["징크스 속박, 바이 대가리 깨기",
+                "https://www.youtube.com/watch?v=88ZWZpkaxEY"],
+            ["신드라 적군와해, 드레이븐 대가리 깨기",
+                "https://www.youtube.com/watch?v=90HC1mtgat8"],
+
+        ]
+
 
 
 
@@ -1982,6 +2014,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <ArrayLink data={FHD221026} date={"221026"}/>
 
             <ArrayLink data={FHD221023} date={"221023"}/>
 
