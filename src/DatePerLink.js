@@ -42,7 +42,7 @@ function DatePerLink({data, date}) {
                 <P>{date.slice(0, 2) + "-" + date.slice(2, 4) + "-" + date.slice(4, 6)}</P>
                 {
                     Object.entries(data).map((game) => (
-                        <Li id={game[1].title}>
+                        <Li id={game[1].title} key={game[1].title}>
                             <A href={game[1].link}>{game[1].title}</A>
                         </Li>
 

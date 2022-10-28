@@ -37,7 +37,7 @@ function ArrayLink({data, date}) {
 
                 {
                     Object.entries(data).map(list => (
-                        <Li id={list[1][0]}>
+                        <Li id={list[1][0]} key={list[1][0]}>
                             <A href={list[1][1]}>{list[1][0]}</A>
                         </Li>
                     ))

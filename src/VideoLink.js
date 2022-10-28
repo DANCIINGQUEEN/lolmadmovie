@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import HorizonLine from "./HorizonLine";
 import DatePerLink from "./DatePerLink";
 import ArrayLink from "./ArrayLink";
+import NewLink from "./NewLink";
+
 
 const A = styled.a`
 color: black;
@@ -50,7 +52,7 @@ function VideoLink() {
         },
         L4: {
             title: "도칠의 끝내기 이니시",
-            link: "https://www.youtube.com/watch?v=D69ne0K88vs"
+            link: "https://www.youtube.com/watch?v=lem90tFV-Ss"
         },
         L5: {
             title: "눈덩이 범인 검거",
@@ -282,7 +284,7 @@ function VideoLink() {
         },
         L61: {
             title: "사미라 펜타킬",
-            link: "https://www.youtube.com/watch?v=2sDxB4rlm0M"
+            link: "https://www.youtube.com/watch?v=2sDxB4rlm0M1"
         },
         L62: {
             title: "다리우스 쿼드라",
@@ -1240,7 +1242,7 @@ function VideoLink() {
 
     }
 
-    const FHD220825= {
+    const FHD220825 = {
         L1: {
             title: "진 비공식 쿼드라",
             link: "https://www.youtube.com/watch?v=_XsFer5e1hk"
@@ -1272,7 +1274,7 @@ function VideoLink() {
 
     }
 
-    const FHD220826= {
+    const FHD220826 = {
         L1: {
             title: "무무 4인궁",
             link: "https://www.youtube.com/watch?v=yi6eOWJ4wEE"
@@ -1328,7 +1330,7 @@ function VideoLink() {
 
     }
 
-    const FHD220827= {
+    const FHD220827 = {
         L1: {
             title: "오리, 닐라, 야스오",
             link: "https://www.youtube.com/watch?v=hdwSTs01VhU"
@@ -1368,7 +1370,7 @@ function VideoLink() {
 
     }
 
-    const FHD220831= {
+    const FHD220831 = {
         L1: {
             title: "아칼리 비공식 펜타",
             link: "https://www.youtube.com/watch?v=0OgSfV3tWAE"
@@ -1408,7 +1410,7 @@ function VideoLink() {
 
     }
 
-    const FHD220901= {
+    const FHD220901 = {
         L1: {
             title: "킹 쵸 비 간결한 대답",
             link: "https://www.youtube.com/watch?v=RbNZ4NbqT38"
@@ -1433,7 +1435,7 @@ function VideoLink() {
 
     }
 
-    const FHD220902= [
+    const FHD220902 = [
         ["4대5 한타 승리",
             "https://www.youtube.com/watch?v=QG8tkCy3oR4"],
         ["나르 점멸 궁",
@@ -1461,7 +1463,7 @@ function VideoLink() {
 
     ]
 
-    const FHD220912= [
+    const FHD220912 = [
         ["아펠레이스 무빙",
             "https://www.youtube.com/watch?v=KqXgFaQxx0g"],
         ["리산드라 이니시 사미라 쿼드라",
@@ -1475,7 +1477,7 @@ function VideoLink() {
 
     ]
 
-    const FHD220916= [
+    const FHD220916 = [
         ["판테온 끝내기 궁",
             "https://www.youtube.com/watch?v=ssQfcqDv6ek"],
         ["아칼리 생존",
@@ -1487,7 +1489,7 @@ function VideoLink() {
 
     ]
 
-    const FHD220917= [
+    const FHD220917 = [
         ["미포 세탁기",
             "https://www.youtube.com/watch?v=PUOyKTpeRxE"],
         ["딜량 1등 문도",
@@ -1505,7 +1507,7 @@ function VideoLink() {
 
     ]
 
-    const FHD220918= [
+    const FHD220918 = [
         ["오공 스로잉, 존나 비벼서 이기기",
             "https://www.youtube.com/watch?v=2dUPq0QwPHY"],
         ["존나 비비기",
@@ -1523,7 +1525,7 @@ function VideoLink() {
 
     ]
 
-    const FHD220922= [
+    const FHD220922 = [
         ["게임 끝내고 놀기",
             "https://www.youtube.com/watch?v=rQxNYS9Owv8"],
         ["자르반 이니시 느린버전",
@@ -1537,7 +1539,7 @@ function VideoLink() {
 
     ]
 
-    const FHD220923= [
+    const FHD220923 = [
         ["티모 인생 무빙 후 사망",
             "https://www.youtube.com/watch?v=3EiBHvG5Up8"],
         ["티모 시간끌기",
@@ -1563,9 +1565,9 @@ function VideoLink() {
         ["티모 뒤통수, 세주 궁, 워윅 1대1",
             "https://www.youtube.com/watch?v=cemETespne4"],
 
-        ]
+    ]
 
-    const FHD220925= [
+    const FHD220925 = [
         ["사일러스 이니시",
             "https://www.youtube.com/watch?v=46bl0xA5jtA"],
         ["반격",
@@ -1585,7 +1587,7 @@ function VideoLink() {
 
     ]
 
-    const FHD220930= [
+    const FHD220930 = [
         ["마지막 적 처지",
             "https://www.youtube.com/watch?v=Q36lMK97DaQ"],
         ["딜러 잡기",
@@ -1599,7 +1601,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221001= [
+    const FHD221001 = [
         ["캐낸 이니시",
             "https://www.youtube.com/watch?v=-fb2DdLXqSQ"],
         ["케넨 이니시2",
@@ -1618,10 +1620,10 @@ function VideoLink() {
             "https://www.youtube.com/watch?v=IINkHUMEVic"],
         ["무쌍찍는 해카림, 마무리하는 마스터이2",
             "https://www.youtube.com/watch?v=zC9-SAKtLr8"],
-        
+
     ]
 
-    const FHD221002= [
+    const FHD221002 = [
         ["말자하 점멸 궁 이니시",
             "https://www.youtube.com/watch?v=Xt3q5ohbIko"],
         ["브랜드와 비에고",
@@ -1645,13 +1647,13 @@ function VideoLink() {
 
     ]
 
-    const FHD221003_1= [
+    const FHD221003_1 = [
         ["마지막 한타",
             "https://www.youtube.com/watch?v=2HxDdtQr8eM"],
 
     ]
 
-    const FHD221003_2= [
+    const FHD221003_2 = [
         ["파이크 쿼드라",
             "https://www.youtube.com/watch?v=H7308t-sns4"],
         ["사일러스 튕김",
@@ -1689,7 +1691,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221004= [
+    const FHD221004 = [
         ["킨드 궁에서 꺼내는 우르곳",
             "https://www.youtube.com/watch?v=3CdHCl5Q9yA"],
         ["애매한 이니시 성공",
@@ -1699,7 +1701,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221008= [
+    const FHD221008 = [
         ["아트록스 펜타킬",
             "https://www.youtube.com/watch?v=a0erceeb4rc"],
         ["막무가내 이니시",
@@ -1729,9 +1731,9 @@ function VideoLink() {
         ["코그모 무호흡딜링",
             "https://www.youtube.com/watch?v=d6WySUOf3pM"],
 
-        ]
+    ]
 
-    const FHD221009= [
+    const FHD221009 = [
         ["나르 이니시",
             "https://www.youtube.com/watch?v=Zkgg81rppUg"],
         ["세트 역이니시",
@@ -1767,7 +1769,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221011= [
+    const FHD221011 = [
         ["블츠 궁극기",
             "https://www.youtube.com/watch?v=s5MAoIJ2CJI"],
         ["받아치기",
@@ -1785,7 +1787,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221012= [
+    const FHD221012 = [
         ["케이틀린 비공식 쿼드라",
             "https://www.youtube.com/watch?v=xgux-oOOEy4"],
         ["자크 이니시",
@@ -1803,7 +1805,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221013= [
+    const FHD221013 = [
         ["에코 이니시",
             "https://www.youtube.com/watch?v=bQ_gMc14ats"],
         ["아칼리 쿼드라 받아먹기",
@@ -1825,7 +1827,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221014= [
+    const FHD221014 = [
         ["바이 펜타킬",
             "https://www.youtube.com/watch?v=x8dvRtr1G68"],
         ["니코 4인궁",
@@ -1855,7 +1857,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221016= [
+    const FHD221016 = [
         ["한놈씩 자르기",
             "https://www.youtube.com/watch?v=gu7KXvIreMc"],
         ["잔나 궁",
@@ -1887,7 +1889,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221018= [
+    const FHD221018 = [
         ["베인 어그로",
             "https://www.youtube.com/watch?v=tkBGN-2eEfs"],
         ["비에고 쿼드라",
@@ -1899,7 +1901,7 @@ function VideoLink() {
 
     ]
 
-    const FHD221020= [
+    const FHD221020 = [
         ["레나타, 질리언 버프",
             "https://www.youtube.com/watch?v=afTefsGe8BA"],
         ["바이 이니시2",
@@ -1939,59 +1941,57 @@ function VideoLink() {
 
     ]
 
-    const FHD221023= [
-            ["알리스타 이니시",
-                "https://www.youtube.com/watch?v=7gN7ojjtLQY"],
-            ["대 역 전",
-                "https://www.youtube.com/watch?v=oGVdGBvjqvs"],
-            ["아크샨 무한 휠",
-                "https://www.youtube.com/watch?v=0du-JeFWG6c"],
-            ["징크스 프리딜",
-                "https://www.youtube.com/watch?v=gKJjYS_OGJY"],
-            ["안죽는 렝가",
-                "https://www.youtube.com/watch?v=0LLoiLAoH8Y"],
-            ["신드라 쿼드라",
-                "https://www.youtube.com/watch?v=iMvJnplMXug"],
-            ["안죽는 렝가, 딜러 프리딜",
-                "https://www.youtube.com/watch?v=tE6MHNMEdk8"],
-            ["탈리야 신드라 징크스",
-                "https://www.youtube.com/watch?v=N-5LXABw_DQ"],
+    const FHD221023 = [
+        ["알리스타 이니시",
+            "https://www.youtube.com/watch?v=7gN7ojjtLQY"],
+        ["대 역 전",
+            "https://www.youtube.com/watch?v=oGVdGBvjqvs"],
+        ["아크샨 무한 휠",
+            "https://www.youtube.com/watch?v=0du-JeFWG6c"],
+        ["징크스 프리딜",
+            "https://www.youtube.com/watch?v=gKJjYS_OGJY"],
+        ["안죽는 렝가",
+            "https://www.youtube.com/watch?v=0LLoiLAoH8Y"],
+        ["신드라 쿼드라",
+            "https://www.youtube.com/watch?v=iMvJnplMXug"],
+        ["안죽는 렝가, 딜러 프리딜",
+            "https://www.youtube.com/watch?v=tE6MHNMEdk8"],
+        ["탈리야 신드라 징크스",
+            "https://www.youtube.com/watch?v=N-5LXABw_DQ"],
 
-        ]
+    ]
 
-    const FHD221026= [
-            ["궁 연계",
-                "https://www.youtube.com/watch?v=G2emMAqPMgs"],
-            ["요, 야 연계 실패",
-                "https://www.youtube.com/watch?v=uChpcjov2wA"],
-            ["아무무 4인궁",
-                "https://www.youtube.com/watch?v=4SCBOYfjklM"],
-            ["세주아니 이니시",
-                "https://www.youtube.com/watch?v=aRccUIqIO3Y"],
-            ["나서스 대가리 깨기",
-                "https://www.youtube.com/watch?v=oVyEnRFCgM4"],
-            ["람머스 번지점프",
-                "https://www.youtube.com/watch?v=jeSlEDNLUKw"],
-            ["유일한 한타승리",
-                "https://www.youtube.com/watch?v=dqSRZf4WjhE"],
-            ["미스포튠 프리딜",
-                "https://www.youtube.com/watch?v=fz9-we2WizU"],
-            ["추노",
-                "https://www.youtube.com/watch?v=2QVrwCjK5ls"],
-            ["미스포튠",
-                "https://www.youtube.com/watch?v=x6eDVBJD4PI"],
-            ["자르반 5인궁",
-                "https://www.youtube.com/watch?v=0Bj2LBBIDAA"],
-            ["그라가스 이니시, 이렐 마무리",
-                "https://www.youtube.com/watch?v=afhiWwqWsCU"],
-            ["징크스 속박, 바이 대가리 깨기",
-                "https://www.youtube.com/watch?v=88ZWZpkaxEY"],
-            ["신드라 적군와해, 드레이븐 대가리 깨기",
-                "https://www.youtube.com/watch?v=90HC1mtgat8"],
+    const FHD221026 = [
+        ["궁 연계",
+            "https://www.youtube.com/watch?v=G2emMAqPMgs"],
+        ["요, 야 연계 실패",
+            "https://www.youtube.com/watch?v=uChpcjov2wA"],
+        ["아무무 4인궁",
+            "https://www.youtube.com/watch?v=4SCBOYfjklM"],
+        ["세주아니 이니시",
+            "https://www.youtube.com/watch?v=aRccUIqIO3Y"],
+        ["나서스 대가리 깨기",
+            "https://www.youtube.com/watch?v=oVyEnRFCgM4"],
+        ["람머스 번지점프",
+            "https://www.youtube.com/watch?v=jeSlEDNLUKw"],
+        ["유일한 한타승리",
+            "https://www.youtube.com/watch?v=dqSRZf4WjhE"],
+        ["미스포튠 프리딜",
+            "https://www.youtube.com/watch?v=fz9-we2WizU"],
+        ["추노",
+            "https://www.youtube.com/watch?v=2QVrwCjK5ls"],
+        ["미스포튠",
+            "https://www.youtube.com/watch?v=x6eDVBJD4PI"],
+        ["자르반 5인궁",
+            "https://www.youtube.com/watch?v=0Bj2LBBIDAA"],
+        ["그라가스 이니시, 이렐 마무리",
+            "https://www.youtube.com/watch?v=afhiWwqWsCU"],
+        ["징크스 속박, 바이 대가리 깨기",
+            "https://www.youtube.com/watch?v=88ZWZpkaxEY"],
+        ["신드라 적군와해, 드레이븐 대가리 깨기",
+            "https://www.youtube.com/watch?v=90HC1mtgat8"],
 
-        ]
-
-
+    ]
 
 
     // const FHD221002= [
@@ -2014,6 +2014,8 @@ function VideoLink() {
     return (
         <div>
             <HorizonLine text={"1080p"}/>
+
+            <NewLink/>
 
             <ArrayLink data={FHD221026} date={"221026"}/>
 
@@ -2079,7 +2081,7 @@ function VideoLink() {
                 <P>22-08-25</P>
                 {
                     Object.entries(FHD220825).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2093,7 +2095,7 @@ function VideoLink() {
                 <P>22-08-24</P>
                 {
                     Object.entries(FHD220824).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2107,7 +2109,7 @@ function VideoLink() {
                 <P>22-08-23</P>
                 {
                     Object.entries(FHD220823).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2121,7 +2123,7 @@ function VideoLink() {
                 <P>22-08-22</P>
                 {
                     Object.entries(FHD220822).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2135,7 +2137,7 @@ function VideoLink() {
                 <P>22-08-21</P>
                 {
                     Object.entries(FHD220821).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2149,7 +2151,7 @@ function VideoLink() {
                 <P>22-08-20</P>
                 {
                     Object.entries(FHD220820).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2163,8 +2165,8 @@ function VideoLink() {
                 <P>22-08-17</P>
                 {
                     Object.entries(FHD220817).map((list) => (
-                        <Li id={list[1].title}>
-                            <A href                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ={list[1].link}>{list[1].title}</A>
+                        <Li id={list[1].title} key={list[1].title}>
+                            <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
                     ))
@@ -2176,7 +2178,7 @@ function VideoLink() {
                 <P>22-08-16</P>
                 {
                     Object.entries(FHD220816).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2189,7 +2191,7 @@ function VideoLink() {
                 <P>22-08-15</P>
                 {
                     Object.entries(FHD220815).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2202,7 +2204,7 @@ function VideoLink() {
                 <P>22-08-14</P>
                 {
                     Object.entries(FHD220814).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2215,7 +2217,7 @@ function VideoLink() {
                 <P>22-08-13</P>
                 {
                     Object.entries(FHD220813).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2228,7 +2230,7 @@ function VideoLink() {
                 <P>22-08-11</P>
                 {
                     Object.entries(FHD220811).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2241,7 +2243,7 @@ function VideoLink() {
                 <P>22-08-10</P>
                 {
                     Object.entries(FHD220810).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2254,7 +2256,7 @@ function VideoLink() {
                 <P>22-08-09</P>
                 {
                     Object.entries(FHD220809).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2268,7 +2270,7 @@ function VideoLink() {
                 <P>22-08-08</P>
                 {
                     Object.entries(FHD220808).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2282,7 +2284,7 @@ function VideoLink() {
                 <P>22-08-07</P>
                 {
                     Object.entries(FHD220807).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2296,7 +2298,7 @@ function VideoLink() {
                 <P>22-08-06</P>
                 {
                     Object.entries(FHD220806).map((list) => (
-                        <Li id={list[1].title}>
+                        <Li id={list[1].title} key={list[1].title}>
                             <A href={list[1].link}>{list[1].title}</A>
                         </Li>
 
@@ -2309,7 +2311,7 @@ function VideoLink() {
             <HorizonLine text={"720p"}/>
             {
                 Object.entries(HD).map((list) => (
-                    <Li id={list[1].title}>
+                    <Li id={list[1].title} key={list[1].link}>
                         <A href={list[1].link}>{list[1].title}</A>
                     </Li>
                 ))
