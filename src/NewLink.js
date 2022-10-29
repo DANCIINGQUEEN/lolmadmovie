@@ -32,7 +32,39 @@ padding:0
 
 
 function NewLink() {
-    const QWE = {
+    const ARAM = {
+        ARAM221029: {
+            date: "221029",
+            video: [
+                ["헤카림 6랩 이니시",
+                    "https://www.youtube.com/watch?v=jhHZNtXSl9I"],
+                ["헤카림 이니시",
+                    "https://www.youtube.com/watch?v=aeB1JeiNho0"],
+                ["헤카림 이니시2",
+                    "https://www.youtube.com/watch?v=wQnWjj_JDPE"],
+                ["헤카림 이니시3",
+                    "https://www.youtube.com/watch?v=iUCs3jERhXM"],
+                ["에코 쿼드라",
+                    "https://www.youtube.com/watch?v=DXY3SdRYC_Q"],
+                ["헤카림 게임 끝내기",
+                    "https://www.youtube.com/watch?v=YdA4kExey9c"],
+                ["파이크 쿼드라",
+                    "https://www.youtube.com/watch?v=HRgVWaJyKK0"],
+                ["파이크 쿼드라2",
+                    "https://www.youtube.com/watch?v=R9gQI9mV9_w"],
+                ["루시안 쿼드라",
+                    "https://www.youtube.com/watch?v=L_5VgeXfI10"],
+                ["알리스타 이니시",
+                    "https://www.youtube.com/watch?v=LiNDlw_GwO0"],
+                ["이렐 6랩 이니시",
+                    "https://www.youtube.com/watch?v=vezgFOqioCE"],
+                ["오리아나 궁니시",
+                    "https://www.youtube.com/watch?v=MDox2X_O6IQ"],
+                ["워윅 이니시, 트리스타나 쿼드라",
+                    "https://www.youtube.com/watch?v=Ixpve7eeDlQ"],
+
+            ]
+        },
         ARAM221028: {
             date: "221028",
             video: [
@@ -67,37 +99,31 @@ function NewLink() {
 
     }
 
-    Object.entries(QWE).map(q => {
-        // console.log(q[1].video)
-        // console.log(q[1])
-        q[1].video.map(w => {
-            // console.log(q[1].date)
-            // console.log(w[0])
-            // console.log(w[1])
-        })
-    })
+    // Object.entries(QWE).map(q => {
+    //     // console.log(q[1].video)
+    //     // console.log(q[1])
+    //     q[1].video.map(w => {
+    //         // console.log(q[1].date)
+    //         // console.log(w[0])
+    //         // console.log(w[1])
+    //     })
+    // })
 
 
     return (
         <div>
-
             {
-                Object.entries(QWE).map((q, index) => (
+                Object.entries(ARAM).map((video, index) => (
                         <Container key={index}>
-
                             <P>
-                                {q[1].date.slice(0, 2) + "-" + q[1].date.slice(2, 4) + "-" + q[1].date.slice(4, 6)}
+                                {video[1].date.slice(0, 2) + "-" + video[1].date.slice(2, 4) + "-" + video[1].date.slice(4, 6)}
                             </P>
-                            <JsonLink data={q[1].video}/>
+                            <JsonLink data={video[1].video}/>
                         </Container>
-
-
                     )
                 )
             }
-
         </div>
-
     );
 }
 
