@@ -2,24 +2,6 @@ import React from 'react';
 import styled from 'styled-components'
 import JsonLink from './JsonLink'
 
-// const A = styled.a`
-// color: black;
-// background: #E2E2E2;
-// font-size: 1.2em;
-// padding: 0.3em 0.5em;
-// margin-right: 0.1em;
-// text-decoration: none;
-// border-radius:10px;
-// :hover{
-// background:yellow
-// `
-//
-// const Li = styled.li`
-// list-style-type: none;
-// margin:10px;
-// display: inline-block;
-// font-size:15px;`
-
 const P = styled.p`
 font-size:13px;
 `
@@ -33,6 +15,18 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221114: {
+            date: "221114",
+            video: [
+                ["쓰레쉬 쿼드라",
+                    "https://www.youtube.com/watch?v=WMXADpPCxAM"],
+                ["오리아나 이니시",
+                    "https://www.youtube.com/watch?v=M5DWUA_yW_I"],
+                ["게임을 끝내는 아지르 슈퍼토스",
+                    "https://www.youtube.com/watch?v=o_d-E4j-tCk"]
+            ]
+
+        },
         ARAM221029: {
             date: "221029",
             video: [
