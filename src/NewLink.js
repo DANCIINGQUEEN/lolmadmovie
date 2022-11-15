@@ -12,9 +12,33 @@ border-radius:30px;
 padding:0
 `
 
+// ARAM221115: {
+//     date: "221115",
+//         video: [
+//         ["",
+//             ""],]
+// },
 
 function NewLink() {
     const ARAM = {
+        ARAM221115: {
+            date: "221115",
+            video: [
+                ["밀어붙이기",
+                    "https://www.youtube.com/watch?v=QiPTNVgQcWc"],
+                ["레넥톤 기습",
+                    "https://www.youtube.com/watch?v=oX95LsMaNJ4"],
+                ["같은 한타 헤카림 시점",
+                    "https://www.youtube.com/watch?v=da-dKb7I_RM"],
+                ["같은 한타 피들스틱 시점",
+                    "https://www.youtube.com/watch?v=w_qO28ztQis"],
+                ["정신 못차리는 뚜벅이들",
+                    "https://www.youtube.com/watch?v=LAyeMs8pQHw"],
+                ["유일한 한타 승리 후 넥뿌",
+                    "https://www.youtube.com/watch?v=W-gkBOgiAXE"],
+
+            ]
+        },
         ARAM221114: {
             date: "221114",
             video: [
