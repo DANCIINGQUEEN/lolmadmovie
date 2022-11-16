@@ -16,11 +16,28 @@ padding:0
 //     date: "221115",
 //         video: [
 //         ["",
-//             ""],]
+//             ""],
+//             ]
 // },
 
 function NewLink() {
     const ARAM = {
+        ARAM221116: {
+            date: "221116",
+            video: [
+                ["요네 케넨",
+                    "https://www.youtube.com/watch?v=rLatS0-ZaoE"],
+                ["헤카림",
+                    "https://www.youtube.com/watch?v=UEtdI4GFg_Y"],
+                ["아칼리 마크",
+                    "https://www.youtube.com/watch?v=X5PqYgbpEcE"],
+                ["이렐, 리산 이니시 아크샨 카이팅",
+                    "https://www.youtube.com/watch?v=ts_mX0Fq6u4"],
+                ["라칸 이니시, 이렐 쿼드라",
+                    "https://www.youtube.com/watch?v=_4lvuMdBk1Y"],
+
+            ]
+        },
         ARAM221115: {
             date: "221115",
             video: [
