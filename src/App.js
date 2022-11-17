@@ -6,9 +6,17 @@ import React from "react";
 function App() {
     return (
         <div className="App">
-            <h1>칼바람 하이라이트</h1>
-            {/*<NewLink/>*/}
-
+            <h1>
+                <span style={{color:"blue"}}>칼</span>
+                <span style={{color:"skyblue"}}>바</span>
+                <span style={{color:"red"}}>람</span>
+                <span>&nbsp;</span>
+                <span style={{color:"purple"}}>하</span>
+                <span style={{color:"grey"}}>이</span>
+                <span style={{color:"greenyellow"}}>라</span>
+                <span style={{color:"orange"}}>이</span>
+                <span style={{color:"hotpink"}}>트</span>
+            </h1>
             <VideoLink/>
         </div>
     );

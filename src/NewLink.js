@@ -22,6 +22,17 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221117: {
+            date: "221117",
+            video: [
+                ["진 쿼드라",
+                    "https://www.youtube.com/watch?v=DhFyGirBLUo"],
+                ["진 바드 누누 비에고 애쉬",
+                    "https://www.youtube.com/watch?v=fYYNdKyOXgM"],
+                ["원거리 포격 겜 끝내기",
+                    "https://www.youtube.com/watch?v=_DLzJ1Iz7nc"],
+            ]
+        },
         ARAM221116: {
             date: "221116",
             video: [
