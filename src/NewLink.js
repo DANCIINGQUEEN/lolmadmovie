@@ -22,6 +22,15 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221118: {
+            date: "221118",
+            video: [
+                ["오른 이니시 받아치기",
+                    "https://www.youtube.com/watch?v=w1FWNsck5CM"],
+                ["시비르 쿼드라킬",
+                    "https://www.youtube.com/watch?v=n3Qvv1DmLPc"],
+            ]
+        },
         ARAM221117: {
             date: "221117",
             video: [
