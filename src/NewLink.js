@@ -22,6 +22,21 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221119: {
+            date: "221119",
+            video: [
+                ["알리스타 이니시 받아치기",
+                    "https://www.youtube.com/watch?v=pn7qCK0ztdo"],
+                ["워윅 이니시",
+                    "https://www.youtube.com/watch?v=kl5f34-l2PQ"],
+                ["신짜오 이니시, 카이사 쿼드라",
+                    "https://www.youtube.com/watch?v=o_534gDrkEg"],
+                ["게임을 끝내는 워윅, 신짜오 이니시",
+                    "https://www.youtube.com/watch?v=D36YqAQKBSE"],
+                ["대역전극",
+                    "https://www.youtube.com/watch?v=HIK2dMeS-WU"],
+            ]
+        },
         ARAM221118: {
             date: "221118",
             video: [
