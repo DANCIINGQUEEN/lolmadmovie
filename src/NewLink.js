@@ -22,6 +22,26 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221120: {
+    date: "221120",
+        video: [
+        ["알리스타 이니시",
+            "https://www.youtube.com/watch?v=vps7kcUokP0"],
+        ["딜러들 개빡딜",
+            "https://www.youtube.com/watch?v=ojsj8dYGAHk"],
+        ["세트 이니시",
+            "https://www.youtube.com/watch?v=BQZYXy2PsxM"],
+        ["쓰레쉬 이니시, 다리우스 마무리",
+            "https://www.youtube.com/watch?v=-ujyxRzIB_Y"],
+        ["크산테 이니시",
+            "https://www.youtube.com/watch?v=7dbv4-cG6MI"],
+        ["안죽는 크산테",
+            "https://www.youtube.com/watch?v=URf2hKusoro"],
+        ["4탱커",
+            "https://www.youtube.com/watch?v=b6C7woMkHl0"],
+
+            ]
+},
         ARAM221119: {
             date: "221119",
             video: [
