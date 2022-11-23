@@ -22,6 +22,44 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221123: {
+    date: "221123",
+        video: [
+        ["키아나 쿼드라",
+            "https://www.youtube.com/watch?v=faL-gAhZFOA"],
+        ["스웨인 3인 속박",
+            "https://www.youtube.com/watch?v=npV7p8Af0So"],
+        ["역전승",
+            "https://www.youtube.com/watch?v=fQxrEMqbgRU"],
+        ["마무리",
+            "https://www.youtube.com/watch?v=Db2GCo8cpHs"],
+        ["한타 연속 두번 승리",
+            "https://www.youtube.com/watch?v=gO_2NJ9PKTc"],
+        ["쓰레쉬 그랩",
+            "https://www.youtube.com/watch?v=acXA5NfP1OE"],
+        ["쓰레쉬 3그랩",
+            "https://www.youtube.com/watch?v=kZzzonCkzWc"],
+        ["다리우스 이니시",
+            "https://www.youtube.com/watch?v=N6jYcqO3R-I"],
+        ["요네 이니시, 킨드 궁에서 꺼내기",
+            "https://www.youtube.com/watch?v=R_4h6hpisRM"],
+        ["그라가스 이니시",
+            "https://www.youtube.com/watch?v=in0w7H2CsuY"],
+        ["갱플랭크 쿼드라",
+            "https://www.youtube.com/watch?v=oUQgHHMP8Ss"],
+        ["케틀 잡기",
+            "https://www.youtube.com/watch?v=yRLT6Jwn7cY"],
+        ["코그모 카이팅",
+            "https://www.youtube.com/watch?v=l0scmmIu_5s"],
+        ["케틀 잡기2",
+            "https://www.youtube.com/watch?v=5anbe6kL0BI"],
+        ["해카림 역전승",
+            "https://www.youtube.com/watch?v=CaOFGUTtQBk"],
+        ["요네 이니시 그라가스 술통",
+            "https://www.youtube.com/watch?v=YxVGdgnCg_w"],
+
+            ]
+},
         ARAM221120: {
     date: "221120",
         video: [
