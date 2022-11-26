@@ -22,6 +22,20 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221126: {
+            date: "221126",
+            video: [
+                ["트런들 불꽃 방망이질",
+                    "https://www.youtube.com/watch?v=HIgSqivhpjU"],
+                ["워윅 몸을 불사르는 이니시",
+                    "https://www.youtube.com/watch?v=Ny9YyqOOR58"],
+                ["트런들 기둥, 말파 3인궁",
+                    "https://www.youtube.com/watch?v=LeFIsTsZOnQ"],
+                ["트런들 몽둥이찜질",
+                    "https://www.youtube.com/watch?v=irr-TPtKtcc"],
+
+            ]
+        },
         ARAM221124: {
             date: "221124",
             video: [
