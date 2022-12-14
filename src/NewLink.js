@@ -22,6 +22,44 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221214: {
+    date: "221214",
+        video: [
+        ["루난 징크스",
+            "https://www.youtube.com/watch?v=-LGC7pAocbE"],
+        ["카밀 이니시",
+            "https://www.youtube.com/watch?v=pyfBi3tp43o"],
+        ["사이온 이니시 막기, 다이애나 한타 파괴",
+            "https://www.youtube.com/watch?v=B_9sPFe3i2I"],
+        ["병림픽",
+            "https://www.youtube.com/watch?v=-m1r_kE3IpM"],
+        ["정돈된 한타",
+            "https://www.youtube.com/watch?v=SMhjvwJl4WQ"],
+
+            ]
+},
+        ARAM221211: {
+    date: "221211",
+        video: [
+        ["일라오이 무지성 이니시",
+            "https://www.youtube.com/watch?v=LSmW7L8l45A"],
+        ["시원하게 겜 끝내기",
+            "https://www.youtube.com/watch?v=1_ez6bYCjtc"],
+        ["스웨인 딜러 속박",
+            "https://www.youtube.com/watch?v=6H6lb9OfjmY"],
+        ["세트 안면강타",
+            "https://www.youtube.com/watch?v=ELdrROSXLvw"],
+        ["안죽는 스웨인",
+            "https://www.youtube.com/watch?v=4PDSmzhZDnk"],
+        ["안죽는 스웨인2",
+            "https://www.youtube.com/watch?v=ETMZxhhIQiI"],
+        ["리산드라 어그로",
+            "https://www.youtube.com/watch?v=YtVoXQsrZ9Y"],
+        ["가지고 놀기",
+            "https://www.youtube.com/watch?v=N5zFBdtUL7Y"],
+
+            ]
+},
         ARAM221126: {
             date: "221126",
             video: [
