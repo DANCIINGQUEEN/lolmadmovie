@@ -12,7 +12,7 @@ border-radius:30px;
 padding:0
 `
 
-// ARAM221115: {
+// ARAM221215: {
 //     date: "221215",
 //         video: [
 //         ["",
@@ -22,6 +22,83 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221223: {
+            date: "221223",
+            video: [
+                ["케인 쿼드라",
+                    "https://www.youtube.com/watch?v=Fv0F7PcYccg"],
+                ["케인 그라가스 이렐리아",
+                    "https://www.youtube.com/watch?v=02mj0Y7Lzx4"],
+                ["비에고",
+                    "https://www.youtube.com/watch?v=jVLW-9DO0bY"],
+                ["아무튼 이김",
+                    "https://www.youtube.com/watch?v=1rA0ERtpF6g"],
+                ["상대 신지드 하드 스로잉",
+                    "https://www.youtube.com/watch?v=9JsYBj4qTEo"],
+                ["세트 이니시",
+                    "https://www.youtube.com/watch?v=iMKGIpjSNBw"],
+                ["세트 이니시 2",
+                    "https://www.youtube.com/watch?v=SkOjgRp-pj8"],
+                ["오합지졸 상대",
+                    "https://www.youtube.com/watch?v=zG8MJbDQJsk"],
+                ["초가스 워윅",
+                    "https://www.youtube.com/watch?v=8_vos74jVx8"],
+                ["2제압",
+                    "https://www.youtube.com/watch?v=7LklN4xHWTM"],
+
+            ]
+        },
+        ARAM221222: {
+            date: "221222",
+            video: [
+                ["허우적대는 상대",
+                    "https://www.youtube.com/watch?v=CSMYf8KyiYY"],
+            ]
+        },
+        ARAM221221: {
+            date: "221221",
+            video: [
+                ["리신 쿼드라 주워먹기",
+                    "https://www.youtube.com/watch?v=wMDs-tM4Q0E"],
+                ["렐 이니시, 아칼리 쿼드라",
+                    "https://www.youtube.com/watch?v=rr9WV_qe2Q0"],
+                ["렐 이니시",
+                    "https://www.youtube.com/watch?v=nhOoO7uWj1Q"],
+                ["3랩 올클리어",
+                    "https://www.youtube.com/watch?v=DrDPC_e5ENY"],
+                ["케넨 아지르",
+                    "https://www.youtube.com/watch?v=BzdryN3oHco"],
+                ["아지르 케넨",
+                    "https://www.youtube.com/watch?v=KhMZaCXoyNQ"],
+                ["오른 칼리스타",
+                    "https://www.youtube.com/watch?v=wSzhjZnwyy4"],
+                ["ㅈㄴ 못하는 상대",
+                    "https://www.youtube.com/watch?v=duBYCxB44UI"],
+
+            ]
+        },
+        ARAM221220: {
+            date: "221220",
+            video: [
+                ["케틑 왕귀",
+                    "https://www.youtube.com/watch?v=PUL5u2sqgxQ"],
+                ["바이",
+                    "https://www.youtube.com/watch?v=ep5v19h4ErM"],
+                ["제라스 국토횡단",
+                    "https://www.youtube.com/watch?v=Sd-i8xzWaAA"],
+                ["바이 2",
+                    "https://www.youtube.com/watch?v=NTjEf__HBoA"],
+                ["카사딘 쿼드라",
+                    "https://www.youtube.com/watch?v=YphjyT9qaoY"],
+                ["상대 자르반 레이드 실패",
+                    "https://www.youtube.com/watch?v=S1cc7L0g3JU"],
+                ["자르반 신지드로부터 탈출",
+                    "https://www.youtube.com/watch?v=V8EAXhGefz4"],
+                ["블리츠 블로킹",
+                    "https://www.youtube.com/watch?v=UlJ1n-H_COk"],
+
+            ]
+        },
         ARAM221217: {
             date: "221217",
             video: [
