@@ -22,6 +22,26 @@ padding:0
 
 function NewLink() {
     const ARAM = {
+        ARAM221215: {
+    date: "230101",
+        video: [
+        ["마스터이 쿼드라",
+            "https://www.youtube.com/watch?v=DALdlCGyJjg"],
+        ["꿀잼 티모",
+            "https://www.youtube.com/watch?v=q7bmQp4J6cA"],
+        ["무기력한 상대",
+            "https://www.youtube.com/watch?v=LR_vUvIXBoY"],
+        ["사일러스",
+            "https://www.youtube.com/watch?v=by2WZyeAgRs"],
+        ["알리스타 이니시",
+            "https://www.youtube.com/watch?v=gBQi_M_0-Wo"],
+        ["아리 궁 사일러스",
+            "https://www.youtube.com/watch?v=cgvJUsYyQ_I"],
+        ["노틸러스 이니시",
+            "https://www.youtube.com/watch?v=uMJJOAozio4"],
+
+            ]
+},
         ARAM220104: {
             date: "230104",
             video: [
